@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-13T04:59:42.295Z",
+  "generatedAt": "2026-04-13T09:17:18.301Z",
   "version": "0.1.0",
-  "outputDir": "/home/runner/work/eh-pc/eh-pc/dist/release-bundle/0.1.0",
-  "artifactCount": 6,
-  "manifestSigned": true,
-  "manifestPath": "/home/runner/work/eh-pc/eh-pc/dist/release-bundle/0.1.0/desktop-update.json",
-  "artifactsPath": "/home/runner/work/eh-pc/eh-pc/dist/release-bundle/0.1.0/artifacts.json",
-  "checksumsPath": "/home/runner/work/eh-pc/eh-pc/dist/release-bundle/0.1.0/SHA256SUMS.txt",
-  "latestPath": "/home/runner/work/eh-pc/eh-pc/dist/release-bundle/0.1.0/LATEST.json"
+  "outputDir": "/Users/lu/AndroidStudioProjects/EhViewerh-pc/dist/release-bundle/0.1.0-r2/bundle",
+  "artifactCount": 4,
+  "manifestSigned": false,
+  "manifestPath": "/Users/lu/AndroidStudioProjects/EhViewerh-pc/dist/release-bundle/0.1.0-r2/bundle/desktop-update.json",
+  "artifactsPath": "/Users/lu/AndroidStudioProjects/EhViewerh-pc/dist/release-bundle/0.1.0-r2/bundle/artifacts.json",
+  "checksumsPath": "/Users/lu/AndroidStudioProjects/EhViewerh-pc/dist/release-bundle/0.1.0-r2/bundle/SHA256SUMS.txt",
+  "latestPath": "/Users/lu/AndroidStudioProjects/EhViewerh-pc/dist/release-bundle/0.1.0-r2/bundle/LATEST.json"
 }
