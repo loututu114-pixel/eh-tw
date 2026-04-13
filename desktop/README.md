@@ -9,24 +9,41 @@
 | 平台 | 建議檔案 | 說明 |
 | --- | --- | --- |
 | macOS | `universal.dmg` | 一般安裝首選，適合大多數 Mac |
+| Windows 10/11 64 位元 | `x64-setup.exe` | 一般安裝首選 |
+| Windows 32 位元 | `ia32-setup.exe` | 僅在 32 位元系統上使用 |
+| 免安裝需求 | `portable.exe` | 測試、隨身碟、免安裝使用 |
 
 ## 直接下載連結
 
 | 平台 | 檔案 | 直接連結 |
 | --- | --- | --- |
-| macOS Universal | `EhViewer Desktop-0.2.2-universal.dmg` | <https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.2/EhViewer%20Desktop-0.2.2-universal.dmg> |
-| macOS Universal | `EhViewer Desktop-0.2.2-universal-mac.zip` | <https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.2/EhViewer%20Desktop-0.2.2-universal-mac.zip> |
+| macOS Universal | `EhViewer Desktop-0.2.1-universal.dmg` | <https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.2/EhViewer%20Desktop-0.2.1-universal.dmg> |
+| Windows 64-bit Setup | `EhViewer Desktop-0.2.1-x64-setup.exe` | <https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.2/EhViewer%20Desktop-0.2.1-x64-setup.exe> |
+| Windows 64-bit Portable | `EhViewer Desktop-0.2.1-x64-portable.exe` | <https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.2/EhViewer%20Desktop-0.2.1-x64-portable.exe> |
+| Windows 32-bit Setup | `EhViewer Desktop-0.2.1-ia32-setup.exe` | <https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.2/EhViewer%20Desktop-0.2.1-ia32-setup.exe> |
+| Windows 32-bit Portable | `EhViewer Desktop-0.2.1-ia32-portable.exe` | <https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.2/EhViewer%20Desktop-0.2.1-ia32-portable.exe> |
+| macOS Universal | `EhViewer Desktop-0.2.1-universal-mac.zip` | <https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.2/EhViewer%20Desktop-0.2.1-universal-mac.zip> |
 
 ## 下載
 
 ### macOS
 
-- [EhViewer Desktop-0.2.2-universal-mac.zip](https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.2/EhViewer%20Desktop-0.2.2-universal-mac.zip)
-- [EhViewer Desktop-0.2.2-universal.dmg](https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.2/EhViewer%20Desktop-0.2.2-universal.dmg)
+- [EhViewer Desktop-0.2.1-universal-mac.zip](https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.2/EhViewer%20Desktop-0.2.1-universal-mac.zip)
+- [EhViewer Desktop-0.2.1-universal.dmg](https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.2/EhViewer%20Desktop-0.2.1-universal.dmg)
+
+### Windows
+
+- [EhViewer Desktop-0.2.1-ia32-portable.exe](https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.2/EhViewer%20Desktop-0.2.1-ia32-portable.exe)
+- [EhViewer Desktop-0.2.1-ia32-setup.exe](https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.2/EhViewer%20Desktop-0.2.1-ia32-setup.exe)
+- [EhViewer Desktop-0.2.1-x64-portable.exe](https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.2/EhViewer%20Desktop-0.2.1-x64-portable.exe)
+- [EhViewer Desktop-0.2.1-x64-setup.exe](https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.2/EhViewer%20Desktop-0.2.1-x64-setup.exe)
 
 ## 版本選擇
 
 - macOS：優先使用 `universal.dmg`，一般安裝最直覺。
+- Windows 10/11 64 位元：優先使用 `x64-setup.exe`。
+- Windows 32 位元：僅在真正的 32 位元系統上使用 `ia32-setup.exe`。
+- `portable.exe` 適合免安裝使用、外接硬碟或快速測試。
 
 ## 功能重點
 
@@ -45,6 +62,8 @@
 ## 系統建議
 
 - macOS：建議使用較新的 Apple Silicon 或 Intel Mac，下載對應 DMG 版本即可。
+- Windows：建議優先使用 64 位元 Windows 10/11。
+- 若只想快速體驗，可直接下載 `portable.exe`。
 
 ## 發佈通道
 
@@ -56,9 +75,15 @@
 
 ### macOS
 
-1. 下載 `EhViewer Desktop-0.2.2-universal.dmg`。
+1. 下載 `EhViewer Desktop-0.2.1-universal.dmg`。
 2. 開啟映像檔後把 App 拖進 `Applications`。
 3. 第一次啟動若被 Gatekeeper 攔住，請在 Finder 右鍵選 `Open`。
+
+### Windows
+
+1. 下載 `EhViewer Desktop-0.2.1-x64-setup.exe`。
+2. 執行安裝程式並完成安裝。
+3. 若不想安裝，可改用對應架構的 `portable.exe`。
 
 
 ## 更新與校驗
@@ -69,7 +94,8 @@
 
 ## 常見問題
 
-- 想正常安裝：macOS 用 `universal.dmg` 或對應 `.dmg`。
+- 想正常安裝：macOS 用 `universal.dmg`，Windows 用 `x64-setup.exe`。
+- 不想安裝：直接使用 `portable.exe`。
 - 想確認檔案是否正確：比對 `SHA256SUMS.txt`。
 - 想知道目前最新版本：查看 `desktop/latest/version.txt`。
 
@@ -77,5 +103,7 @@
 
 - Traditional Chinese is the primary public language for this project.
 - macOS users should start with `universal.dmg`.
+- Windows users should start with `x64-setup.exe`.
+- Portable Windows builds are available if you do not want a normal installer.
 - Update metadata and checksums are published under `desktop/latest/`.
 

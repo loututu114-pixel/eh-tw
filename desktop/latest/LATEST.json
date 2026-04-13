@@ -19,36 +19,84 @@
   "updateContent": {
     "title": "EhViewer Desktop 0.2.2",
     "content": [
-      "Foreground EH/EX page and image requests now prefer real direct IP candidates before falling back to relay.",
-      "Direct candidate routing preserves the original hostname, HTTPS SNI, cookies, and redirect semantics while forcing DNS to the selected candidate IP.",
-      "Route memory now ranks direct and relay candidates in separate buckets so healthy direct paths do not get hidden behind relay history."
+      "Bundled trust anchors now reset to the new B/C desktop release chain so future updates can continue after the lost A key.",
+      "Route memory, host failover, peer-cache controls, and diagnostics are now carried into the desktop control plane.",
+      "This release hardens the desktop release pipeline so clean GitHub builds regenerate workspace packages before packaging macOS and Windows installers."
     ],
-    "fileDownloadUrl": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.2/EhViewer.Desktop-0.2.2-universal.dmg"
+    "fileDownloadUrl": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.2/EhViewer%20Desktop-0.2.1-universal.dmg"
   },
   "notice": {
     "title": "EhViewer Desktop 0.2.2",
     "body": "Desktop release channel is live with tracked macOS installers and update metadata.",
     "deeplink": "ehviewer-desktop://update/0.2.2",
-    "download_url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.2/EhViewer.Desktop-0.2.2-universal.dmg"
+    "download_url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.2/EhViewer%20Desktop-0.2.1-universal.dmg"
   },
   "artifacts": [
     {
-      "name": "EhViewer.Desktop-0.2.2-universal-mac.zip",
-      "platform": "darwin",
-      "arch": "universal",
-      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.2/EhViewer.Desktop-0.2.2-universal-mac.zip",
-      "sha256": "cab2e0491df93df3ae5a8da20299db2d5050148264fee3f98e0d02ca66b6dcd1",
-      "sizeBytes": 196680886
+      "name": "EhViewer Desktop-0.2.1-ia32-portable.exe",
+      "platform": "win32",
+      "arch": "ia32",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.2/EhViewer%20Desktop-0.2.1-ia32-portable.exe",
+      "sha256": "841af1426fab382eff54cd57698b16bcd621bce274e8a09180dcf3de1531cd20",
+      "sizeBytes": 82890756
     },
     {
-      "name": "EhViewer.Desktop-0.2.2-universal.dmg",
+      "name": "EhViewer Desktop-0.2.1-ia32-setup.exe",
+      "platform": "win32",
+      "arch": "ia32",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.2/EhViewer%20Desktop-0.2.1-ia32-setup.exe",
+      "sha256": "a0fca58c655ff501b9fd7dfd959b45577d5e32c0bbeaf0abaf788fde3d9d68d1",
+      "sizeBytes": 83106602
+    },
+    {
+      "name": "EhViewer Desktop-0.2.1-universal-mac.zip",
       "platform": "darwin",
       "arch": "universal",
-      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.2/EhViewer.Desktop-0.2.2-universal.dmg",
-      "sha256": "757b2db33eb7ca689d2bfa0cac3883fff129cba97d93ed89927de61fc62653db",
-      "sizeBytes": 203056377
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.2/EhViewer%20Desktop-0.2.1-universal-mac.zip",
+      "sha256": "3bbc3d61aeff2a564decaa38c729352c2724586c8b9b8db1b94553513bb15efc",
+      "sizeBytes": 197766992
+    },
+    {
+      "name": "EhViewer Desktop-0.2.1-universal.dmg",
+      "platform": "darwin",
+      "arch": "universal",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.2/EhViewer%20Desktop-0.2.1-universal.dmg",
+      "sha256": "f8c49bf984889fe5040505ac1714592be6332dcec855c84c9bdbf0812a6f20b2",
+      "sizeBytes": 204171779
+    },
+    {
+      "name": "EhViewer Desktop-0.2.1-x64-portable.exe",
+      "platform": "win32",
+      "arch": "x64",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.2/EhViewer%20Desktop-0.2.1-x64-portable.exe",
+      "sha256": "9d4fad9e0f7fad5a48707af575dbaae331bffe9390ba1aebc24ca085f94c79a9",
+      "sizeBytes": 95548889
+    },
+    {
+      "name": "EhViewer Desktop-0.2.1-x64-setup.exe",
+      "platform": "win32",
+      "arch": "x64",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.2/EhViewer%20Desktop-0.2.1-x64-setup.exe",
+      "sha256": "61eff7a855bd86db6cc82f9a5b8986d24bf8461ea694e06317842986897593bf",
+      "sizeBytes": 95765125
     }
   ],
-  "changelog": "Foreground EH/EX page and image requests now prefer real direct IP candidates before falling back to relay.\nDirect candidate routing preserves the original hostname, HTTPS SNI, cookies, and redirect semantics while forcing DNS to the selected candidate IP.\nRoute memory now ranks direct and relay candidates in separate buckets so healthy direct paths do not get hidden behind relay history.",
-  "publish_time": "2026-04-13T16:47:11.838Z"
+  "changelog": "Bundled trust anchors now reset to the new B/C desktop release chain so future updates can continue after the lost A key.\nRoute memory, host failover, peer-cache controls, and diagnostics are now carried into the desktop control plane.\nThis release hardens the desktop release pipeline so clean GitHub builds regenerate workspace packages before packaging macOS and Windows installers.",
+  "publish_time": "2026-04-13T16:49:11.162Z",
+  "_signature": {
+    "schema": "ehviewer-control-plane-signature/v1",
+    "type": "desktop-update",
+    "sequence": 2026041313,
+    "issuedAt": "2026-04-13T16:49:11.204Z",
+    "expiresAt": "2027-04-13T16:49:11.204Z",
+    "payloadSha256": "c2b2df69b886ed51426e32783f5499107034c6e53a7e4272a5b085106e174a63",
+    "minSignatures": 1,
+    "signatures": [
+      {
+        "keyId": "desktop-root-2026-04-b",
+        "algorithm": "ed25519",
+        "signature": "FYrK3rXRJJYl+IBpMD5BlZ3enfwmLo1JLhvXYEGXelA3GhkLnn0QvgjD1K2gyXwAM7aluydraA6qqY+eXczpDQ=="
+      }
+    ]
+  }
 }
