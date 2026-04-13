@@ -1,0 +1,11 @@
+{
+  "generatedAt": "2026-04-13T09:17:18.301Z",
+  "version": "0.1.0",
+  "outputDir": "/Users/lu/AndroidStudioProjects/EhViewerh-pc/dist/release-bundle/0.1.0-r2/bundle",
+  "artifactCount": 4,
+  "manifestSigned": false,
+  "manifestPath": "/Users/lu/AndroidStudioProjects/EhViewerh-pc/dist/release-bundle/0.1.0-r2/bundle/desktop-update.json",
+  "artifactsPath": "/Users/lu/AndroidStudioProjects/EhViewerh-pc/dist/release-bundle/0.1.0-r2/bundle/artifacts.json",
+  "checksumsPath": "/Users/lu/AndroidStudioProjects/EhViewerh-pc/dist/release-bundle/0.1.0-r2/bundle/SHA256SUMS.txt",
+  "latestPath": "/Users/lu/AndroidStudioProjects/EhViewerh-pc/dist/release-bundle/0.1.0-r2/bundle/LATEST.json"
+}

@@ -28,6 +28,19 @@
   `https://github.com/loututu114-pixel/eh-tw/releases/tag/desktop-v0.1.0`
 - Desktop 說明：
   `desktop/README.md`
+- Desktop CDN 說明：
+  `https://cdn.downlogin.com/desktop/README.md`
+
+### Desktop 直接下載
+
+- macOS Universal DMG:
+  <https://cdn.downlogin.com/desktop/releases/0.1.0/EhViewer%20Desktop-0.1.0-universal.dmg>
+- macOS Apple Silicon DMG:
+  <https://cdn.downlogin.com/desktop/releases/0.1.0/EhViewer%20Desktop-0.1.0-arm64.dmg>
+- macOS Universal ZIP:
+  <https://cdn.downlogin.com/desktop/releases/0.1.0/EhViewer%20Desktop-0.1.0-universal-mac.zip>
+- Desktop CDN latest:
+  <https://cdn.downlogin.com/desktop/latest/README.md>
 
 ## English Summary
 

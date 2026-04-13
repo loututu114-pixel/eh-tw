@@ -1,53 +1,37 @@
 {
-  "generatedAt": "2026-04-13T04:59:42.196Z",
+  "generatedAt": "2026-04-13T08:58:03.668Z",
   "artifacts": [
     {
-      "name": "EhViewer Desktop-0.1.0-ia32-portable.exe",
-      "platform": "win32",
-      "arch": "ia32",
-      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.1.0/EhViewer%20Desktop-0.1.0-ia32-portable.exe",
-      "sizeBytes": 82883226,
-      "sha256": "2fb90e8361fb31909cc681c62f9836ee3453e33c311bb0a4070fb7cb9b593944"
+      "name": "EhViewer Desktop-0.1.0-arm64-mac.zip",
+      "platform": "darwin",
+      "arch": "arm64",
+      "url": "https://cdn.downlogin.com/desktop/releases/0.1.0/EhViewer%20Desktop-0.1.0-arm64-mac.zip",
+      "sizeBytes": 106274793,
+      "sha256": "c4c7e6fc6425c7710abd9a09d50f9d6a863c0e9c51a7d760f59c0aa0a8921b34"
     },
     {
-      "name": "EhViewer Desktop-0.1.0-ia32-setup.exe",
-      "platform": "win32",
-      "arch": "ia32",
-      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.1.0/EhViewer%20Desktop-0.1.0-ia32-setup.exe",
-      "sizeBytes": 83112514,
-      "sha256": "5cc29ad5cb223aaffd8e454ff809284a8e3d73a037d9f58bb5c2f0a664222e05"
+      "name": "EhViewer Desktop-0.1.0-arm64.dmg",
+      "platform": "darwin",
+      "arch": "arm64",
+      "url": "https://cdn.downlogin.com/desktop/releases/0.1.0/EhViewer%20Desktop-0.1.0-arm64.dmg",
+      "sizeBytes": 109887501,
+      "sha256": "5386de70ab194fa1b1332145d386a117828fcb92c1aa46b6903d712863e73fe0"
     },
     {
       "name": "EhViewer Desktop-0.1.0-universal-mac.zip",
       "platform": "darwin",
       "arch": "universal",
-      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.1.0/EhViewer%20Desktop-0.1.0-universal-mac.zip",
-      "sizeBytes": 197759204,
-      "sha256": "c5001f0265dfa21bba19f11be3d446807de0a26157c2c0c9d0785200fd6022b5"
+      "url": "https://cdn.downlogin.com/desktop/releases/0.1.0/EhViewer%20Desktop-0.1.0-universal-mac.zip",
+      "sizeBytes": 196660308,
+      "sha256": "ee99c84de58567f17da08feabf4b22fa1b4b9f2f78d20ce392450997f2bb55c8"
     },
     {
       "name": "EhViewer Desktop-0.1.0-universal.dmg",
       "platform": "darwin",
       "arch": "universal",
-      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.1.0/EhViewer%20Desktop-0.1.0-universal.dmg",
-      "sizeBytes": 204142040,
-      "sha256": "5b06e87e4eef97484b70dc35a31847c6e87b931a3f0bd0d0cfb24d6dcb95bd2a"
-    },
-    {
-      "name": "EhViewer Desktop-0.1.0-x64-portable.exe",
-      "platform": "win32",
-      "arch": "x64",
-      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.1.0/EhViewer%20Desktop-0.1.0-x64-portable.exe",
-      "sizeBytes": 95530784,
-      "sha256": "f170202edb4daf037f5cf6803df01f980512f3e50a72c62b27171e9baeb0af83"
-    },
-    {
-      "name": "EhViewer Desktop-0.1.0-x64-setup.exe",
-      "platform": "win32",
-      "arch": "x64",
-      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.1.0/EhViewer%20Desktop-0.1.0-x64-setup.exe",
-      "sizeBytes": 95760589,
-      "sha256": "d82fca56aadba58bab213174c974d6393afd65640297df71d6497961338f0ddf"
+      "url": "https://cdn.downlogin.com/desktop/releases/0.1.0/EhViewer%20Desktop-0.1.0-universal.dmg",
+      "sizeBytes": 203014901,
+      "sha256": "14ca8059f1671e401a3084174f70a14e541c26a189c35c82763c97518b18e152"
     }
   ]
 }

@@ -1,0 +1,70 @@
+{
+  "version": "0.1.0",
+  "versionCode": 10000,
+  "version_name": "0.1.0",
+  "version_code": 10000,
+  "mustUpdate": false,
+  "mandatory": false,
+  "severity": "info",
+  "channels": [
+    "desktop"
+  ],
+  "min_supported": 10000,
+  "minimum_supported_version": "0.1.0",
+  "minimum_supported_version_code": 10000,
+  "manual_upgrade_before_version": "0.1.0",
+  "manual_upgrade_before_version_code": 10000,
+  "force_upgrade_versions": [],
+  "force_upgrade_version_codes": [],
+  "updateContent": {
+    "title": "EhViewer Desktop 0.1.0",
+    "content": [
+      "Initial desktop control-plane release with remote hosts, desktop updater, V2 analytics, and proxy-node peer-cache runtime services.",
+      "Desktop Settings now exposes cache inventory, remote-hosts freshness, updater state, analytics queue, and proxy-node diagnostics.",
+      "A packaged desktop artifact is not published yet; this metadata endpoint establishes the desktop channel and can be updated once installers are available."
+    ],
+    "fileDownloadUrl": "https://cdn.downlogin.com/desktop/releases/0.1.0/EhViewer%20Desktop-0.1.0-universal.dmg"
+  },
+  "notice": {
+    "title": "EhViewer Desktop 0.1.0",
+    "body": "Desktop metadata channel initialized for runtime governance and future release rollout.",
+    "deeplink": "ehviewer-desktop://update/0.1.0",
+    "download_url": "https://cdn.downlogin.com/desktop/releases/0.1.0/EhViewer%20Desktop-0.1.0-universal.dmg"
+  },
+  "artifacts": [
+    {
+      "name": "EhViewer Desktop-0.1.0-arm64-mac.zip",
+      "platform": "darwin",
+      "arch": "arm64",
+      "url": "https://cdn.downlogin.com/desktop/releases/0.1.0/EhViewer%20Desktop-0.1.0-arm64-mac.zip",
+      "sha256": "c4c7e6fc6425c7710abd9a09d50f9d6a863c0e9c51a7d760f59c0aa0a8921b34",
+      "sizeBytes": 106274793
+    },
+    {
+      "name": "EhViewer Desktop-0.1.0-arm64.dmg",
+      "platform": "darwin",
+      "arch": "arm64",
+      "url": "https://cdn.downlogin.com/desktop/releases/0.1.0/EhViewer%20Desktop-0.1.0-arm64.dmg",
+      "sha256": "5386de70ab194fa1b1332145d386a117828fcb92c1aa46b6903d712863e73fe0",
+      "sizeBytes": 109887501
+    },
+    {
+      "name": "EhViewer Desktop-0.1.0-universal-mac.zip",
+      "platform": "darwin",
+      "arch": "universal",
+      "url": "https://cdn.downlogin.com/desktop/releases/0.1.0/EhViewer%20Desktop-0.1.0-universal-mac.zip",
+      "sha256": "ee99c84de58567f17da08feabf4b22fa1b4b9f2f78d20ce392450997f2bb55c8",
+      "sizeBytes": 196660308
+    },
+    {
+      "name": "EhViewer Desktop-0.1.0-universal.dmg",
+      "platform": "darwin",
+      "arch": "universal",
+      "url": "https://cdn.downlogin.com/desktop/releases/0.1.0/EhViewer%20Desktop-0.1.0-universal.dmg",
+      "sha256": "14ca8059f1671e401a3084174f70a14e541c26a189c35c82763c97518b18e152",
+      "sizeBytes": 203014901
+    }
+  ],
+  "changelog": "Initial desktop control-plane release with remote hosts, desktop updater, V2 analytics, and proxy-node peer-cache runtime services.\nDesktop Settings now exposes cache inventory, remote-hosts freshness, updater state, analytics queue, and proxy-node diagnostics.\nA packaged desktop artifact is not published yet; this metadata endpoint establishes the desktop channel and can be updated once installers are available.",
+  "publish_time": "2026-04-13T09:17:18.295Z"
+}
