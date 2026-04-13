@@ -1,0 +1,102 @@
+{
+  "version": "0.2.1",
+  "versionCode": 20100,
+  "version_name": "0.2.1",
+  "version_code": 20100,
+  "mustUpdate": false,
+  "mandatory": false,
+  "severity": "info",
+  "channels": [
+    "desktop"
+  ],
+  "min_supported": 20100,
+  "minimum_supported_version": "0.2.1",
+  "minimum_supported_version_code": 20100,
+  "manual_upgrade_before_version": "0.2.1",
+  "manual_upgrade_before_version_code": 20100,
+  "force_upgrade_versions": [],
+  "force_upgrade_version_codes": [],
+  "updateContent": {
+    "title": "EhViewer Desktop 0.2.1",
+    "content": [
+      "Bundled trust anchors now reset to the new B/C desktop release chain so future updates can continue after the lost A key.",
+      "Route memory, host failover, peer-cache controls, and diagnostics are now carried into the desktop control plane.",
+      "This release hardens the desktop release pipeline so clean GitHub builds regenerate workspace packages before packaging macOS and Windows installers."
+    ],
+    "fileDownloadUrl": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.1/EhViewer%20Desktop-0.2.1-universal.dmg"
+  },
+  "notice": {
+    "title": "EhViewer Desktop 0.2.1",
+    "body": "Desktop release channel is live with tracked macOS installers and update metadata.",
+    "deeplink": "ehviewer-desktop://update/0.2.1",
+    "download_url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.1/EhViewer%20Desktop-0.2.1-universal.dmg"
+  },
+  "artifacts": [
+    {
+      "name": "EhViewer Desktop-0.2.1-ia32-portable.exe",
+      "platform": "win32",
+      "arch": "ia32",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.1/EhViewer%20Desktop-0.2.1-ia32-portable.exe",
+      "sha256": "97c77865a5d25f1868fadb8924da6873dadef0df8f18e996517e81ac2ab1652f",
+      "sizeBytes": 82891036
+    },
+    {
+      "name": "EhViewer Desktop-0.2.1-ia32-setup.exe",
+      "platform": "win32",
+      "arch": "ia32",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.1/EhViewer%20Desktop-0.2.1-ia32-setup.exe",
+      "sha256": "eda934962b0513f69932e4e44c236040e769798d3d5927aad28a1b94b61aa423",
+      "sizeBytes": 83106884
+    },
+    {
+      "name": "EhViewer Desktop-0.2.1-universal-mac.zip",
+      "platform": "darwin",
+      "arch": "universal",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.1/EhViewer%20Desktop-0.2.1-universal-mac.zip",
+      "sha256": "6c637c3ea40c08db69e8d05aae38fc09c5ec380674af670d27989a69a64042a8",
+      "sizeBytes": 197766992
+    },
+    {
+      "name": "EhViewer Desktop-0.2.1-universal.dmg",
+      "platform": "darwin",
+      "arch": "universal",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.1/EhViewer%20Desktop-0.2.1-universal.dmg",
+      "sha256": "f48c7edbf94c0d360c59a95b3589866074a1451293337418156e582e4c243c73",
+      "sizeBytes": 204171856
+    },
+    {
+      "name": "EhViewer Desktop-0.2.1-x64-portable.exe",
+      "platform": "win32",
+      "arch": "x64",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.1/EhViewer%20Desktop-0.2.1-x64-portable.exe",
+      "sha256": "ab1c56b4e8ea7c5434a84edb8a1641a5c201e3dbbe7e7a770d01d4269f5326c0",
+      "sizeBytes": 95548808
+    },
+    {
+      "name": "EhViewer Desktop-0.2.1-x64-setup.exe",
+      "platform": "win32",
+      "arch": "x64",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.1/EhViewer%20Desktop-0.2.1-x64-setup.exe",
+      "sha256": "7b89ea285484ba565034d36e92ec7fe6e924da45a9dce44c156d82491359f803",
+      "sizeBytes": 95765044
+    }
+  ],
+  "changelog": "Bundled trust anchors now reset to the new B/C desktop release chain so future updates can continue after the lost A key.\nRoute memory, host failover, peer-cache controls, and diagnostics are now carried into the desktop control plane.\nThis release hardens the desktop release pipeline so clean GitHub builds regenerate workspace packages before packaging macOS and Windows installers.",
+  "publish_time": "2026-04-13T11:00:22.219Z",
+  "_signature": {
+    "schema": "ehviewer-control-plane-signature/v1",
+    "type": "desktop-update",
+    "sequence": 2026041312,
+    "issuedAt": "2026-04-13T11:00:22.261Z",
+    "expiresAt": "2027-04-13T11:00:22.261Z",
+    "payloadSha256": "13b22d491cb0941da3bfae05fa470ede3376fbb134bde819ec00a3f3dfa7d9e8",
+    "minSignatures": 1,
+    "signatures": [
+      {
+        "keyId": "desktop-root-2026-04-b",
+        "algorithm": "ed25519",
+        "signature": "jPLgba1IxpzIprg6VZTzeWQtIWw9OWgoGCxMTh3yziYdzGbT4kDxnyQvJmlQcXZwK1jYDsk+he+3jN9WxbCrCQ=="
+      }
+    ]
+  }
+}
