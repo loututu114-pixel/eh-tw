@@ -25,14 +25,6 @@
 - Desktop 說明：
   `desktop/README.md`
 
-## Repository Roles
-
-- 私有主控與開發管理：
-  `https://github.com/loututu114-pixel/ehviewer`
-- 公開發佈、查看、下載與回退鏡像：
-  `https://github.com/loututu114-pixel/eh-tw`
-
 ## English Summary
 
 - This repository is the shared public release hub for both Android and Desktop.
-- The private source-of-truth repo remains `loututu114-pixel/ehviewer`.
