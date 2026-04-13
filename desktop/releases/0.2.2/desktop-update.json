@@ -1,0 +1,54 @@
+{
+  "version": "0.2.2",
+  "versionCode": 20200,
+  "version_name": "0.2.2",
+  "version_code": 20200,
+  "mustUpdate": false,
+  "mandatory": false,
+  "severity": "info",
+  "channels": [
+    "desktop"
+  ],
+  "min_supported": 20200,
+  "minimum_supported_version": "0.2.2",
+  "minimum_supported_version_code": 20200,
+  "manual_upgrade_before_version": "0.2.2",
+  "manual_upgrade_before_version_code": 20200,
+  "force_upgrade_versions": [],
+  "force_upgrade_version_codes": [],
+  "updateContent": {
+    "title": "EhViewer Desktop 0.2.2",
+    "content": [
+      "Foreground EH/EX page and image requests now prefer real direct IP candidates before falling back to relay.",
+      "Direct candidate routing preserves the original hostname, HTTPS SNI, cookies, and redirect semantics while forcing DNS to the selected candidate IP.",
+      "Route memory now ranks direct and relay candidates in separate buckets so healthy direct paths do not get hidden behind relay history."
+    ],
+    "fileDownloadUrl": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.2/EhViewer%20Desktop-0.2.2-universal.dmg"
+  },
+  "notice": {
+    "title": "EhViewer Desktop 0.2.2",
+    "body": "Desktop release channel is live with tracked macOS installers and update metadata.",
+    "deeplink": "ehviewer-desktop://update/0.2.2",
+    "download_url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.2/EhViewer%20Desktop-0.2.2-universal.dmg"
+  },
+  "artifacts": [
+    {
+      "name": "EhViewer Desktop-0.2.2-universal-mac.zip",
+      "platform": "darwin",
+      "arch": "universal",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.2/EhViewer%20Desktop-0.2.2-universal-mac.zip",
+      "sha256": "cab2e0491df93df3ae5a8da20299db2d5050148264fee3f98e0d02ca66b6dcd1",
+      "sizeBytes": 196680886
+    },
+    {
+      "name": "EhViewer Desktop-0.2.2-universal.dmg",
+      "platform": "darwin",
+      "arch": "universal",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.2/EhViewer%20Desktop-0.2.2-universal.dmg",
+      "sha256": "757b2db33eb7ca689d2bfa0cac3883fff129cba97d93ed89927de61fc62653db",
+      "sizeBytes": 203056377
+    }
+  ],
+  "changelog": "Foreground EH/EX page and image requests now prefer real direct IP candidates before falling back to relay.\nDirect candidate routing preserves the original hostname, HTTPS SNI, cookies, and redirect semantics while forcing DNS to the selected candidate IP.\nRoute memory now ranks direct and relay candidates in separate buckets so healthy direct paths do not get hidden behind relay history.",
+  "publish_time": "2026-04-13T16:14:17.308Z"
+}
