@@ -1,0 +1,102 @@
+{
+  "version": "0.1.0",
+  "versionCode": 10000,
+  "version_name": "0.1.0",
+  "version_code": 10000,
+  "mustUpdate": false,
+  "mandatory": false,
+  "severity": "info",
+  "channels": [
+    "desktop"
+  ],
+  "min_supported": 10000,
+  "minimum_supported_version": "0.1.0",
+  "minimum_supported_version_code": 10000,
+  "manual_upgrade_before_version": "0.1.0",
+  "manual_upgrade_before_version_code": 10000,
+  "force_upgrade_versions": [],
+  "force_upgrade_version_codes": [],
+  "updateContent": {
+    "title": "EhViewer Desktop 0.1.0",
+    "content": [
+      "Initial desktop control-plane release with remote hosts, desktop updater, V2 analytics, and proxy-node peer-cache runtime services.",
+      "Desktop Settings now exposes cache inventory, remote-hosts freshness, updater state, analytics queue, and proxy-node diagnostics.",
+      "A packaged desktop artifact is not published yet; this metadata endpoint establishes the desktop channel and can be updated once installers are available."
+    ],
+    "fileDownloadUrl": ""
+  },
+  "notice": {
+    "title": "EhViewer Desktop 0.1.0",
+    "body": "Desktop metadata channel initialized for runtime governance and future release rollout.",
+    "deeplink": "ehviewer-desktop://update/0.1.0",
+    "download_url": ""
+  },
+  "artifacts": [
+    {
+      "name": "EhViewer Desktop-0.1.0-ia32-portable.exe",
+      "platform": "win32",
+      "arch": "ia32",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.1.0/EhViewer%20Desktop-0.1.0-ia32-portable.exe",
+      "sha256": "2fb90e8361fb31909cc681c62f9836ee3453e33c311bb0a4070fb7cb9b593944",
+      "sizeBytes": 82883226
+    },
+    {
+      "name": "EhViewer Desktop-0.1.0-ia32-setup.exe",
+      "platform": "win32",
+      "arch": "ia32",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.1.0/EhViewer%20Desktop-0.1.0-ia32-setup.exe",
+      "sha256": "5cc29ad5cb223aaffd8e454ff809284a8e3d73a037d9f58bb5c2f0a664222e05",
+      "sizeBytes": 83112514
+    },
+    {
+      "name": "EhViewer Desktop-0.1.0-universal-mac.zip",
+      "platform": "darwin",
+      "arch": "universal",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.1.0/EhViewer%20Desktop-0.1.0-universal-mac.zip",
+      "sha256": "c5001f0265dfa21bba19f11be3d446807de0a26157c2c0c9d0785200fd6022b5",
+      "sizeBytes": 197759204
+    },
+    {
+      "name": "EhViewer Desktop-0.1.0-universal.dmg",
+      "platform": "darwin",
+      "arch": "universal",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.1.0/EhViewer%20Desktop-0.1.0-universal.dmg",
+      "sha256": "5b06e87e4eef97484b70dc35a31847c6e87b931a3f0bd0d0cfb24d6dcb95bd2a",
+      "sizeBytes": 204142040
+    },
+    {
+      "name": "EhViewer Desktop-0.1.0-x64-portable.exe",
+      "platform": "win32",
+      "arch": "x64",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.1.0/EhViewer%20Desktop-0.1.0-x64-portable.exe",
+      "sha256": "f170202edb4daf037f5cf6803df01f980512f3e50a72c62b27171e9baeb0af83",
+      "sizeBytes": 95530784
+    },
+    {
+      "name": "EhViewer Desktop-0.1.0-x64-setup.exe",
+      "platform": "win32",
+      "arch": "x64",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.1.0/EhViewer%20Desktop-0.1.0-x64-setup.exe",
+      "sha256": "d82fca56aadba58bab213174c974d6393afd65640297df71d6497961338f0ddf",
+      "sizeBytes": 95760589
+    }
+  ],
+  "changelog": "Initial desktop control-plane release with remote hosts, desktop updater, V2 analytics, and proxy-node peer-cache runtime services.\nDesktop Settings now exposes cache inventory, remote-hosts freshness, updater state, analytics queue, and proxy-node diagnostics.\nA packaged desktop artifact is not published yet; this metadata endpoint establishes the desktop channel and can be updated once installers are available.",
+  "publish_time": "2026-04-13T04:59:42.235Z",
+  "_signature": {
+    "schema": "ehviewer-control-plane-signature/v1",
+    "type": "desktop-update",
+    "sequence": 2026041310,
+    "issuedAt": "2026-04-13T04:59:42.276Z",
+    "expiresAt": "2027-04-13T04:59:42.276Z",
+    "payloadSha256": "d64081f043e787f609e6541e6b06a0c9d0e1a7ec05d95722d79603875146b765",
+    "minSignatures": 1,
+    "signatures": [
+      {
+        "keyId": "desktop-root-2026-04-c",
+        "algorithm": "ed25519",
+        "signature": "fbUmWisIK53k242lPVpeyQi6+R162QMtcwJCDa9Do+DYithhdlL9+QN+8ldkwBVvNe1jglYUH6sDdOyp0oVoAw=="
+      }
+    ]
+  }
+}
