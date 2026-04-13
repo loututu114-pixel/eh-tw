@@ -5,7 +5,7 @@
 ## Android
 
 - 最新 Android 發佈頁：
-  `https://github.com/loututu114-pixel/eh-tw/releases/tag/android-v2.2.0.19`
+  `https://github.com/loututu114-pixel/eh-tw/releases/tag/android-v2.2.0.20`
 - Android 最新說明：
   `android/latest/README.md`
 - App 內查看最新版本與問題說明落地頁，現在都應指向這個公開 repo。
@@ -13,7 +13,7 @@
 ### Android 官方下載
 
 - 官方 APK：
-  `EhViewer-v2.2.0.19-channel-0000-release.apk`
+  `EhViewer-v2.2.0.20-channel-0000-release.apk`
 - 官方短連結：
   `https://app.downlogin.com/d/8f34e44123aceb82`
 - 公開站點只展示官方包資訊，不展示渠道包資訊。

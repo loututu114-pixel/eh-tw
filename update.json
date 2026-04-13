@@ -1,0 +1,20 @@
+{
+  "version": "2.2.0.20",
+  "versionCode": 220020,
+  "mustUpdate": true,
+  "minimumSupportedVersion": "2.2.0.20",
+  "minimumSupportedVersionCode": 220020,
+  "manualUpgradeBeforeVersion": "2.2.0.20",
+  "manualUpgradeBeforeVersionCode": 220020,
+  "forceUpgradeVersions": [],
+  "forceUpgradeVersionCodes": [],
+  "updateContent": {
+    "title": "EhViewer 2.2.0.20 Compatibility-Safe Update Hardening",
+    "content": [
+      "New builds prefer the deeper runtime metadata path while legacy installs still retain a GitHub compatibility mirror.",
+      "Remote hosts and bookmark fallbacks no longer depend on public raw mirror files, reducing public-surface coupling.",
+      "Older builds should upgrade to 2.2.0.20 to get the hardened update, recovery, and compatibility path."
+    ],
+    "fileDownloadUrl": "https://app.downlogin.com/d/8f34e44123aceb82"
+  }
+}
