@@ -1,2 +1,2 @@
-cab2e0491df93df3ae5a8da20299db2d5050148264fee3f98e0d02ca66b6dcd1  EhViewer Desktop-0.2.2-universal-mac.zip
-757b2db33eb7ca689d2bfa0cac3883fff129cba97d93ed89927de61fc62653db  EhViewer Desktop-0.2.2-universal.dmg
+cab2e0491df93df3ae5a8da20299db2d5050148264fee3f98e0d02ca66b6dcd1  EhViewer.Desktop-0.2.2-universal-mac.zip
+757b2db33eb7ca689d2bfa0cac3883fff129cba97d93ed89927de61fc62653db  EhViewer.Desktop-0.2.2-universal.dmg
