@@ -1,8 +1,8 @@
 {
-  "version": "2.2.0.19",
-  "versionCode": 220019,
-  "version_name": "2.2.0.19",
-  "version_code": 220019,
+  "version": "2.2.0.20",
+  "versionCode": 220020,
+  "version_name": "2.2.0.20",
+  "version_code": 220020,
   "mustUpdate": true,
   "mandatory": true,
   "severity": "critical",
@@ -13,24 +13,24 @@
     "3096"
   ],
   "ab_test_percent": 100,
-  "min_supported": 220019,
-  "minimum_supported_version": "2.2.0.19",
-  "minimum_supported_version_code": 220019,
-  "manual_upgrade_before_version": "2.2.0.19",
-  "manual_upgrade_before_version_code": 220019,
+  "min_supported": 220020,
+  "minimum_supported_version": "2.2.0.20",
+  "minimum_supported_version_code": 220020,
+  "manual_upgrade_before_version": "2.2.0.20",
+  "manual_upgrade_before_version_code": 220020,
   "updateContent": {
-    "title": "EhViewer 2.2.0.19 Routing And Relay Precision Fix",
+    "title": "EhViewer 2.2.0.20 Compatibility-Safe Update Hardening",
     "content": [
-      "This required release separates page and image network health so healthy VPN users stay direct-first when possible.",
-      "Relay-assisted image recovery no longer makes the client treat the direct lane as healthy, improving cache and fallback decisions.",
-      "Older builds are now outside the supported range and should update to 2.2.0.19."
+      "New builds prefer the deeper runtime metadata path while legacy installs still retain a GitHub compatibility mirror.",
+      "Remote hosts and bookmark fallbacks no longer depend on public raw mirror files, reducing public-surface coupling.",
+      "Older builds should upgrade to 2.2.0.20 to get the hardened update, recovery, and compatibility path."
     ],
     "fileDownloadUrl": "https://app.downlogin.com/d/8f34e44123aceb82"
   },
   "notice": {
-    "title": "EhViewer 2.2.0.19 Routing And Relay Precision Fix",
-    "body": "This required release sharpens VPN direct routing and relay fallback decisions so healthy origin access is preserved more accurately.",
-    "deeplink": "ehviewer://update/220019",
+    "title": "EhViewer 2.2.0.20 Compatibility-Safe Update Hardening",
+    "body": "This required release hardens update transport, recovery metadata, and old-version compatibility while keeping the public landing surface minimal.",
+    "deeplink": "ehviewer://update/220020",
     "download_url": "https://app.downlogin.com/d/8f34e44123aceb82"
   },
   "shortlinks": [
@@ -41,8 +41,8 @@
       "channel_code": "0000",
       "channel_suffix": "00",
       "url": "https://app.downlogin.com/d/8f34e44123aceb82",
-      "target_artifact_url": "https://cdn.downlogin.com/apk/2.2.0.19/EhViewer-v2.2.0.19-00.apk",
-      "target_artifact_version": "2.2.0.19"
+      "target_artifact_url": "https://cdn.downlogin.com/apk/2.2.0.20/EhViewer-v2.2.0.20-00.apk",
+      "target_artifact_version": "2.2.0.20"
     },
     {
       "id": "f9cf0b92aa737d45",
@@ -51,8 +51,8 @@
       "channel_code": "3001",
       "channel_suffix": "01",
       "url": "https://app.downlogin.com/d/f9cf0b92aa737d45",
-      "target_artifact_url": "https://cdn.downlogin.com/apk/2.2.0.19/EhViewer-v2.2.0.19-01.apk",
-      "target_artifact_version": "2.2.0.19"
+      "target_artifact_url": "https://cdn.downlogin.com/apk/2.2.0.20/EhViewer-v2.2.0.20-01.apk",
+      "target_artifact_version": "2.2.0.20"
     },
     {
       "id": "d0a3bc5043f55590",
@@ -61,8 +61,8 @@
       "channel_code": "3095",
       "channel_suffix": "95",
       "url": "https://app.downlogin.com/d/d0a3bc5043f55590",
-      "target_artifact_url": "https://cdn.downlogin.com/apk/2.2.0.19/EhViewer-v2.2.0.19-95.apk",
-      "target_artifact_version": "2.2.0.19"
+      "target_artifact_url": "https://cdn.downlogin.com/apk/2.2.0.20/EhViewer-v2.2.0.20-95.apk",
+      "target_artifact_version": "2.2.0.20"
     },
     {
       "id": "941b3a716dfa3126",
@@ -71,50 +71,50 @@
       "channel_code": "3096",
       "channel_suffix": "96",
       "url": "https://app.downlogin.com/d/941b3a716dfa3126",
-      "target_artifact_url": "https://cdn.downlogin.com/apk/2.2.0.19/EhViewer-v2.2.0.19-96.apk",
-      "target_artifact_version": "2.2.0.19"
+      "target_artifact_url": "https://cdn.downlogin.com/apk/2.2.0.20/EhViewer-v2.2.0.20-96.apk",
+      "target_artifact_version": "2.2.0.20"
     }
   ],
   "artifacts": [
     {
       "abi": "arm64-v8a",
       "channel_code": "0000",
-      "url": "https://cdn.downlogin.com/apk/2.2.0.19/EhViewer-v2.2.0.19-00.apk",
-      "sha256": "360222866a3f5f6304b442c852255386e78480bb133926c9d1c9efcb46058859",
-      "size": 16732971,
+      "url": "https://cdn.downlogin.com/apk/2.2.0.20/EhViewer-v2.2.0.20-00.apk",
+      "sha256": "f1594129c6f3c721250e5842db80ee4635c3e16c12c8304206910d3b52026041",
+      "size": 16732793,
       "mirrors": [],
       "delta": []
     },
     {
       "abi": "arm64-v8a",
       "channel_code": "3001",
-      "url": "https://cdn.downlogin.com/apk/2.2.0.19/EhViewer-v2.2.0.19-01.apk",
-      "sha256": "58834c2a70d867a4d74277121c4797cf77da207c5d2615b71aee3d30fdbd4bab",
-      "size": 16732983,
+      "url": "https://cdn.downlogin.com/apk/2.2.0.20/EhViewer-v2.2.0.20-01.apk",
+      "sha256": "c3a192dcf9c4ef7562357aab645a446bb71a771e1a3d48b80335217d7fb79c25",
+      "size": 16732787,
       "mirrors": [],
       "delta": []
     },
     {
       "abi": "arm64-v8a",
       "channel_code": "3095",
-      "url": "https://cdn.downlogin.com/apk/2.2.0.19/EhViewer-v2.2.0.19-95.apk",
-      "sha256": "c58dfafcf90c063c3a01d1aea1d4692d154ddd32bdada1b784150f1e984ec062",
-      "size": 16732989,
+      "url": "https://cdn.downlogin.com/apk/2.2.0.20/EhViewer-v2.2.0.20-95.apk",
+      "sha256": "4c9a7c662ecd4c929550428a965f675cc59408d6c1e958c849ee73d0aef221f8",
+      "size": 16732792,
       "mirrors": [],
       "delta": []
     },
     {
       "abi": "arm64-v8a",
       "channel_code": "3096",
-      "url": "https://cdn.downlogin.com/apk/2.2.0.19/EhViewer-v2.2.0.19-96.apk",
-      "sha256": "6b2792992edb80ebf33d7d6eb4975b26a4287d4685b3a96312ba55999b69a8c7",
-      "size": 16732985,
+      "url": "https://cdn.downlogin.com/apk/2.2.0.20/EhViewer-v2.2.0.20-96.apk",
+      "sha256": "c098c5d31e0e842d2dcc3f0173daeb627c6722020a22cb51b7c69cc5ebc63a25",
+      "size": 16732792,
       "mirrors": [],
       "delta": []
     }
   ],
-  "changelog": "This required 2.2.0.19 release separates page and image health so healthy VPN users stay direct-first while relay fallback becomes more precise.",
-  "publish_time": "2026-04-07T09:23:42Z",
+  "changelog": "This required 2.2.0.20 release hardens update transport, recovery metadata, and old-version compatibility while keeping the public landing surface minimal.",
+  "publish_time": "2026-04-13T07:00:00Z",
   "force_upgrade_versions": [],
   "force_upgrade_version_codes": []
 }

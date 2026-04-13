@@ -1,19 +1,19 @@
 {
-  "version": "2.2.0.19",
-  "versionCode": 220019,
+  "version": "2.2.0.20",
+  "versionCode": 220020,
   "mustUpdate": true,
-  "minimumSupportedVersion": "2.2.0.19",
-  "minimumSupportedVersionCode": 220019,
-  "manualUpgradeBeforeVersion": "2.2.0.19",
-  "manualUpgradeBeforeVersionCode": 220019,
+  "minimumSupportedVersion": "2.2.0.20",
+  "minimumSupportedVersionCode": 220020,
+  "manualUpgradeBeforeVersion": "2.2.0.20",
+  "manualUpgradeBeforeVersionCode": 220020,
   "forceUpgradeVersions": [],
   "forceUpgradeVersionCodes": [],
   "updateContent": {
-    "title": "EhViewer 2.2.0.19 Routing And Relay Precision Fix",
+    "title": "EhViewer 2.2.0.20 Compatibility-Safe Update Hardening",
     "content": [
-      "This required release separates page and image network health so healthy VPN users stay direct-first when possible.",
-      "Relay-assisted image recovery no longer makes the client treat the direct lane as healthy, improving cache and fallback decisions.",
-      "Older builds are now outside the supported range and should update to 2.2.0.19."
+      "New builds prefer the deeper runtime metadata path while legacy installs still retain a GitHub compatibility mirror.",
+      "Remote hosts and bookmark fallbacks no longer depend on public raw mirror files, reducing public-surface coupling.",
+      "Older builds should upgrade to 2.2.0.20 to get the hardened update, recovery, and compatibility path."
     ],
     "fileDownloadUrl": "https://app.downlogin.com/d/8f34e44123aceb82"
   }
