@@ -2,6 +2,10 @@
 
 本 repo 是 EhViewer 的公開發佈與查看入口，統一承接 Android 與 Desktop 的公開下載、版本說明與使用引導。
 
+## Desktop Preview
+
+![EhViewer Desktop library list](./assets/screenshots/desktop-library-list.png)
+
 ## Android
 
 - 最新 Android 發佈頁：

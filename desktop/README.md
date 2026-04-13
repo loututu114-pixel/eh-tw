@@ -4,6 +4,10 @@
 
 本頁以繁體中文為主，並附上簡短 English summary。
 
+## 畫面預覽
+
+![EhViewer Desktop library list](../assets/screenshots/desktop-library-list.png)
+
 ## 推薦下載
 
 | 平台 | 建議檔案 | 說明 |
