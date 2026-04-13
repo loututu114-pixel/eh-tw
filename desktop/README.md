@@ -1,8 +1,10 @@
 # EhViewer Desktop 0.1.0
 
-Current public desktop release: `0.1.0`.
+目前公開桌面版版本：`0.1.0`
 
-## Downloads
+本頁以繁體中文為主，並附上簡短 English summary。
+
+## 下載
 
 ### macOS
 
@@ -16,37 +18,43 @@ Current public desktop release: `0.1.0`.
 - [EhViewer Desktop-0.1.0-x64-portable.exe](https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.1.0/EhViewer%20Desktop-0.1.0-x64-portable.exe)
 - [EhViewer Desktop-0.1.0-x64-setup.exe](https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.1.0/EhViewer%20Desktop-0.1.0-x64-setup.exe)
 
-## Which File To Use
+## 版本選擇
 
-- macOS: `universal.dmg` is the normal installer.
-- Windows 10/11 64-bit: `x64-setup.exe` is the normal installer.
-- Windows 32-bit: `ia32-setup.exe` only if the system is actually 32-bit.
-- `portable.exe` builds run without a normal install and are better for testing or removable storage.
+- macOS：`universal.dmg` 是建議優先下載的正常安裝包。
+- Windows 10/11 64 位元：`x64-setup.exe` 是建議優先下載的正常安裝包。
+- Windows 32 位元：只有在系統確實是 32 位元時才使用 `ia32-setup.exe`。
+- `portable.exe` 版本可免安裝啟動，適合測試或隨身攜帶使用。
 
-## Quick Start
+## 功能介紹
+
+- 桌面端以漫畫閱讀為核心，提供畫冊流、資料頁與閱讀頁三段式體驗。
+- 提供正常安裝版與免安裝版，方便一般使用與測試分流。
+- 支援更新描述檔與校驗資訊公開發佈，方便後續升級。
+
+## 快速開始
 
 ### macOS
 
-1. Download `EhViewer Desktop-0.1.0-universal.dmg`.
-2. Open the DMG and drag the app into `Applications`.
-3. Launch the app.
-4. If Gatekeeper blocks the first launch, open the app from Finder with `Open`.
+1. 下載 `EhViewer Desktop-0.1.0-universal.dmg`。
+2. 開啟 DMG 後把 App 拖進 `Applications`。
+3. 啟動應用程式。
+4. 若首次啟動被 Gatekeeper 攔住，請在 Finder 右鍵選 `Open`。
 
 ### Windows
 
-1. Download `EhViewer Desktop-0.1.0-x64-setup.exe` on normal 64-bit systems.
-2. Run the installer and complete setup.
-3. Launch EhViewer Desktop from the Start menu or desktop shortcut.
-4. If you prefer no install, use the matching `portable.exe` build instead.
+1. 一般 64 位元系統請下載 `EhViewer Desktop-0.1.0-x64-setup.exe`。
+2. 執行安裝程式並完成安裝。
+3. 從開始選單或桌面捷徑啟動 EhViewer Desktop。
+4. 若不想安裝，可改用對應架構的 `portable.exe`。
 
-## Integrity
+## 更新與校驗
 
-- `desktop/latest/SHA256SUMS.txt` contains the published checksums.
-- `desktop/latest/desktop-update.json` is the updater payload consumed by the desktop client.
-- `desktop/latest/LATEST.json` mirrors the latest updater payload for simple fetch flows.
+- `desktop/latest/SHA256SUMS.txt`：公開校驗值。
+- `desktop/latest/desktop-update.json`：桌面端更新描述檔。
+- `desktop/latest/LATEST.json`：供簡單更新流程讀取的最新版本描述。
 
-## Updates
+## English Summary
 
-- The desktop updater selects the correct installer from the published artifact list.
-- `desktop/latest/` always tracks the newest public release metadata.
-- `desktop/releases/0.1.0/` stores the versioned notes and metadata for this release.
+- Traditional Chinese is the primary public language.
+- Use `universal.dmg` on macOS and `x64-setup.exe` on normal 64-bit Windows.
+- Update metadata and checksums are available under `desktop/latest/`.

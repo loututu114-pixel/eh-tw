@@ -1,8 +1,10 @@
 # EhViewer Desktop 0.1.0
 
-Release version: `0.1.0`
+版本：`0.1.0`
 
-## Download Links
+本次公開發佈說明以繁體中文為主。
+
+## 下載連結
 
 ### macOS
 
@@ -16,10 +18,22 @@ Release version: `0.1.0`
 - [EhViewer Desktop-0.1.0-x64-portable.exe](https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.1.0/EhViewer%20Desktop-0.1.0-x64-portable.exe)
 - [EhViewer Desktop-0.1.0-x64-setup.exe](https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.1.0/EhViewer%20Desktop-0.1.0-x64-setup.exe)
 
-## Included Metadata
+## 這個版本提供什麼
 
-- `desktop-update.json`
-- `LATEST.json`
-- `artifacts.json`
-- `SHA256SUMS.txt`
+- macOS 安裝包：`universal.dmg`、`universal-mac.zip`
+- Windows 安裝包：`x64-setup.exe`、`ia32-setup.exe`
+- Windows 免安裝版：`x64-portable.exe`、`ia32-portable.exe`
+- 自動更新與校驗資訊：`desktop-update.json`、`LATEST.json`、`artifacts.json`、`SHA256SUMS.txt`
 
+## 建議下載方式
+
+- macOS：優先使用 `universal.dmg`。
+- 一般 Windows：優先使用 `x64-setup.exe`。
+- 只有在 32 位元 Windows 上才使用 `ia32` 版本。
+
+## English Summary
+
+- Public release notes are Traditional Chinese first.
+- macOS users should start with `universal.dmg`.
+- Most Windows users should start with `x64-setup.exe`.
+- Checksums and update metadata are included in this release.
