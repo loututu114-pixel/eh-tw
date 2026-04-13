@@ -1,0 +1,120 @@
+{
+  "version": "2.2.0.19",
+  "versionCode": 220019,
+  "version_name": "2.2.0.19",
+  "version_code": 220019,
+  "mustUpdate": true,
+  "mandatory": true,
+  "severity": "critical",
+  "channels": [
+    "0000",
+    "3001",
+    "3095",
+    "3096"
+  ],
+  "ab_test_percent": 100,
+  "min_supported": 220019,
+  "minimum_supported_version": "2.2.0.19",
+  "minimum_supported_version_code": 220019,
+  "manual_upgrade_before_version": "2.2.0.19",
+  "manual_upgrade_before_version_code": 220019,
+  "updateContent": {
+    "title": "EhViewer 2.2.0.19 Routing And Relay Precision Fix",
+    "content": [
+      "This required release separates page and image network health so healthy VPN users stay direct-first when possible.",
+      "Relay-assisted image recovery no longer makes the client treat the direct lane as healthy, improving cache and fallback decisions.",
+      "Older builds are now outside the supported range and should update to 2.2.0.19."
+    ],
+    "fileDownloadUrl": "https://app.downlogin.com/d/8f34e44123aceb82"
+  },
+  "notice": {
+    "title": "EhViewer 2.2.0.19 Routing And Relay Precision Fix",
+    "body": "This required release sharpens VPN direct routing and relay fallback decisions so healthy origin access is preserved more accurately.",
+    "deeplink": "ehviewer://update/220019",
+    "download_url": "https://app.downlogin.com/d/8f34e44123aceb82"
+  },
+  "shortlinks": [
+    {
+      "id": "8f34e44123aceb82",
+      "alias": "official",
+      "fixed": true,
+      "channel_code": "0000",
+      "channel_suffix": "00",
+      "url": "https://app.downlogin.com/d/8f34e44123aceb82",
+      "target_artifact_url": "https://cdn.downlogin.com/apk/2.2.0.19/EhViewer-v2.2.0.19-00.apk",
+      "target_artifact_version": "2.2.0.19"
+    },
+    {
+      "id": "f9cf0b92aa737d45",
+      "alias": "partner",
+      "fixed": true,
+      "channel_code": "3001",
+      "channel_suffix": "01",
+      "url": "https://app.downlogin.com/d/f9cf0b92aa737d45",
+      "target_artifact_url": "https://cdn.downlogin.com/apk/2.2.0.19/EhViewer-v2.2.0.19-01.apk",
+      "target_artifact_version": "2.2.0.19"
+    },
+    {
+      "id": "d0a3bc5043f55590",
+      "alias": "channel-3095",
+      "fixed": true,
+      "channel_code": "3095",
+      "channel_suffix": "95",
+      "url": "https://app.downlogin.com/d/d0a3bc5043f55590",
+      "target_artifact_url": "https://cdn.downlogin.com/apk/2.2.0.19/EhViewer-v2.2.0.19-95.apk",
+      "target_artifact_version": "2.2.0.19"
+    },
+    {
+      "id": "941b3a716dfa3126",
+      "alias": "channel-3096",
+      "fixed": true,
+      "channel_code": "3096",
+      "channel_suffix": "96",
+      "url": "https://app.downlogin.com/d/941b3a716dfa3126",
+      "target_artifact_url": "https://cdn.downlogin.com/apk/2.2.0.19/EhViewer-v2.2.0.19-96.apk",
+      "target_artifact_version": "2.2.0.19"
+    }
+  ],
+  "artifacts": [
+    {
+      "abi": "arm64-v8a",
+      "channel_code": "0000",
+      "url": "https://cdn.downlogin.com/apk/2.2.0.19/EhViewer-v2.2.0.19-00.apk",
+      "sha256": "58fea263028d10f31e510f84fd8df36bbe2ca29c2785584741614c337b25000e",
+      "size": 16669185,
+      "mirrors": [],
+      "delta": []
+    },
+    {
+      "abi": "arm64-v8a",
+      "channel_code": "3001",
+      "url": "https://cdn.downlogin.com/apk/2.2.0.19/EhViewer-v2.2.0.19-01.apk",
+      "sha256": "072231e34531447fa5f8c03e0078fe44aefaa7eff1b6e7085f1646a891571ecc",
+      "size": 16669176,
+      "mirrors": [],
+      "delta": []
+    },
+    {
+      "abi": "arm64-v8a",
+      "channel_code": "3095",
+      "url": "https://cdn.downlogin.com/apk/2.2.0.19/EhViewer-v2.2.0.19-95.apk",
+      "sha256": "63c996eb8611e3448c942899617e45683bdfb4ef7d05e4731c6bb69cc85510a8",
+      "size": 16669184,
+      "mirrors": [],
+      "delta": []
+    },
+    {
+      "abi": "arm64-v8a",
+      "channel_code": "3096",
+      "url": "https://cdn.downlogin.com/apk/2.2.0.19/EhViewer-v2.2.0.19-96.apk",
+      "sha256": "0f19685ce113907d02cdb70500940bc032a2c93e95d8496b624a0b63e90e05c6",
+      "size": 16669181,
+      "mirrors": [],
+      "delta": []
+    }
+  ],
+  "changelog": "This required 2.2.0.19 release separates page and image health so healthy VPN users stay direct-first while relay fallback becomes more precise.",
+  "publish_time": "2026-04-07T09:23:42Z",
+  "force_upgrade_versions": [],
+  "force_upgrade_version_codes": []
+}
