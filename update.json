@@ -1,20 +1,20 @@
 {
-  "version": "2.2.0.21",
-  "versionCode": 220021,
+  "version": "2.2.1.1",
+  "versionCode": 221001,
   "mustUpdate": true,
-  "minimumSupportedVersion": "2.2.0.21",
-  "minimumSupportedVersionCode": 220021,
-  "manualUpgradeBeforeVersion": "2.2.0.21",
-  "manualUpgradeBeforeVersionCode": 220021,
+  "minimumSupportedVersion": "2.2.1.1",
+  "minimumSupportedVersionCode": 221001,
+  "manualUpgradeBeforeVersion": "2.2.1.1",
+  "manualUpgradeBeforeVersionCode": 221001,
   "forceUpgradeVersions": [],
   "forceUpgradeVersionCodes": [],
   "updateContent": {
-    "title": "EhViewer 2.2.0.21 Compatibility-Safe Update Hardening",
+    "title": "EhViewer 2.2.1.1 Runtime Alignment Refresh",
     "content": [
-      "New builds prefer the deeper runtime metadata path while legacy installs still retain a GitHub compatibility mirror.",
-      "Remote hosts and bookmark fallbacks no longer depend on public raw mirror files, reducing public-surface coupling.",
-      "Older builds should upgrade to 2.2.0.21 to get the hardened update, recovery, and compatibility path."
+      "This release refreshes the install package to 2.2.1.1 and aligns bundled runtime metadata with the new build.",
+      "Release artifacts continue to use the fixed official shortlink registry and channel-specific package targets.",
+      "Older builds should upgrade to 2.2.1.1 to stay on the current package and update path."
     ],
-    "fileDownloadUrl": "https://app.downlogin.com/d/8f34e44123aceb82"
+    "fileDownloadUrl": "https://app.downlogin.com/d/7faf433833769e8d"
   }
 }
