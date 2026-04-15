@@ -1,101 +1,101 @@
 {
-  "version": "0.2.2",
-  "versionCode": 20200,
-  "version_name": "0.2.2",
-  "version_code": 20200,
+  "version": "0.2.3",
+  "versionCode": 20300,
+  "version_name": "0.2.3",
+  "version_code": 20300,
   "mustUpdate": false,
   "mandatory": false,
   "severity": "info",
   "channels": [
     "desktop"
   ],
-  "min_supported": 20200,
-  "minimum_supported_version": "0.2.2",
-  "minimum_supported_version_code": 20200,
-  "manual_upgrade_before_version": "0.2.2",
-  "manual_upgrade_before_version_code": 20200,
+  "min_supported": 20300,
+  "minimum_supported_version": "0.2.3",
+  "minimum_supported_version_code": 20300,
+  "manual_upgrade_before_version": "0.2.3",
+  "manual_upgrade_before_version_code": 20300,
   "force_upgrade_versions": [],
   "force_upgrade_version_codes": [],
   "updateContent": {
-    "title": "EhViewer Desktop 0.2.2",
+    "title": "EhViewer Desktop 0.2.3",
     "content": [
-      "Bundled trust anchors now reset to the new B/C desktop release chain so future updates can continue after the lost A key.",
-      "Route memory, host failover, peer-cache controls, and diagnostics are now carried into the desktop control plane.",
-      "This release hardens the desktop release pipeline so clean GitHub builds regenerate workspace packages before packaging macOS and Windows installers."
+      "Polish desktop gallery and catalog surfaces with denser toolbars and clearer key metadata.",
+      "Normalize passive filter states so unavailable actions stay informative without looking broken.",
+      "Refresh 0.2.3 desktop release metadata and unsigned update manifest fields for the current release channel."
     ],
-    "fileDownloadUrl": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.2/EhViewer%20Desktop-0.2.1-universal.dmg"
+    "fileDownloadUrl": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.3/EhViewer%20Desktop-0.2.3-universal.dmg"
   },
   "notice": {
-    "title": "EhViewer Desktop 0.2.2",
+    "title": "EhViewer Desktop 0.2.3",
     "body": "Desktop release channel is live with tracked macOS installers and update metadata.",
-    "deeplink": "ehviewer-desktop://update/0.2.2",
-    "download_url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.2/EhViewer%20Desktop-0.2.1-universal.dmg"
+    "deeplink": "ehviewer-desktop://update/0.2.3",
+    "download_url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.3/EhViewer%20Desktop-0.2.3-universal.dmg"
   },
   "artifacts": [
     {
-      "name": "EhViewer Desktop-0.2.1-ia32-portable.exe",
+      "name": "EhViewer Desktop-0.2.3-ia32-portable.exe",
       "platform": "win32",
       "arch": "ia32",
-      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.2/EhViewer%20Desktop-0.2.1-ia32-portable.exe",
-      "sha256": "841af1426fab382eff54cd57698b16bcd621bce274e8a09180dcf3de1531cd20",
-      "sizeBytes": 82890756
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.3/EhViewer%20Desktop-0.2.3-ia32-portable.exe",
+      "sha256": "2ebe782c55784266ebfd4c0cb6dc46f7e7d3035d8eddb61d9f1d438327b02772",
+      "sizeBytes": 93140597
     },
     {
-      "name": "EhViewer Desktop-0.2.1-ia32-setup.exe",
+      "name": "EhViewer Desktop-0.2.3-ia32-setup.exe",
       "platform": "win32",
       "arch": "ia32",
-      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.2/EhViewer%20Desktop-0.2.1-ia32-setup.exe",
-      "sha256": "a0fca58c655ff501b9fd7dfd959b45577d5e32c0bbeaf0abaf788fde3d9d68d1",
-      "sizeBytes": 83106602
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.3/EhViewer%20Desktop-0.2.3-ia32-setup.exe",
+      "sha256": "5bc40c09e0f399bada84a7400e8ba26bb58317f62f378af81c4ffed7b55aa943",
+      "sizeBytes": 93356446
     },
     {
-      "name": "EhViewer Desktop-0.2.1-universal-mac.zip",
+      "name": "EhViewer Desktop-0.2.3-universal-mac.zip",
       "platform": "darwin",
       "arch": "universal",
-      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.2/EhViewer%20Desktop-0.2.1-universal-mac.zip",
-      "sha256": "3bbc3d61aeff2a564decaa38c729352c2724586c8b9b8db1b94553513bb15efc",
-      "sizeBytes": 197766992
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.3/EhViewer%20Desktop-0.2.3-universal-mac.zip",
+      "sha256": "80358b8be31779e363d1988380f0fd1621d4b0b3fb2ae7a4a9228c4129ed3d8b",
+      "sizeBytes": 211200092
     },
     {
-      "name": "EhViewer Desktop-0.2.1-universal.dmg",
+      "name": "EhViewer Desktop-0.2.3-universal.dmg",
       "platform": "darwin",
       "arch": "universal",
-      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.2/EhViewer%20Desktop-0.2.1-universal.dmg",
-      "sha256": "f8c49bf984889fe5040505ac1714592be6332dcec855c84c9bdbf0812a6f20b2",
-      "sizeBytes": 204171779
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.3/EhViewer%20Desktop-0.2.3-universal.dmg",
+      "sha256": "79d41178592bc16c1f36b2f8f472d3c79563a4a8467d6a70eeae4e38e6afca36",
+      "sizeBytes": 218251884
     },
     {
-      "name": "EhViewer Desktop-0.2.1-x64-portable.exe",
+      "name": "EhViewer Desktop-0.2.3-x64-portable.exe",
       "platform": "win32",
       "arch": "x64",
-      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.2/EhViewer%20Desktop-0.2.1-x64-portable.exe",
-      "sha256": "9d4fad9e0f7fad5a48707af575dbaae331bffe9390ba1aebc24ca085f94c79a9",
-      "sizeBytes": 95548889
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.3/EhViewer%20Desktop-0.2.3-x64-portable.exe",
+      "sha256": "ee864caf08110ccb4d5f96a2b30171192f2d770e0e5b868e7a762a13de2832ee",
+      "sizeBytes": 105798768
     },
     {
-      "name": "EhViewer Desktop-0.2.1-x64-setup.exe",
+      "name": "EhViewer Desktop-0.2.3-x64-setup.exe",
       "platform": "win32",
       "arch": "x64",
-      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.2/EhViewer%20Desktop-0.2.1-x64-setup.exe",
-      "sha256": "61eff7a855bd86db6cc82f9a5b8986d24bf8461ea694e06317842986897593bf",
-      "sizeBytes": 95765125
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.3/EhViewer%20Desktop-0.2.3-x64-setup.exe",
+      "sha256": "48fe60770eb7b8e49fc656d10dc09c7a29d800c9b3c1729a03d222c28fa833c3",
+      "sizeBytes": 106014984
     }
   ],
-  "changelog": "Bundled trust anchors now reset to the new B/C desktop release chain so future updates can continue after the lost A key.\nRoute memory, host failover, peer-cache controls, and diagnostics are now carried into the desktop control plane.\nThis release hardens the desktop release pipeline so clean GitHub builds regenerate workspace packages before packaging macOS and Windows installers.",
-  "publish_time": "2026-04-13T16:49:11.162Z",
+  "changelog": "Polish desktop gallery and catalog surfaces with denser toolbars and clearer key metadata.\nNormalize passive filter states so unavailable actions stay informative without looking broken.\nRefresh 0.2.3 desktop release metadata and unsigned update manifest fields for the current release channel.",
+  "publish_time": "2026-04-15T14:46:27.647Z",
   "_signature": {
     "schema": "ehviewer-control-plane-signature/v1",
     "type": "desktop-update",
-    "sequence": 2026041313,
-    "issuedAt": "2026-04-13T16:49:11.204Z",
-    "expiresAt": "2027-04-13T16:49:11.204Z",
-    "payloadSha256": "c2b2df69b886ed51426e32783f5499107034c6e53a7e4272a5b085106e174a63",
+    "sequence": 2026041514,
+    "issuedAt": "2026-04-15T14:46:27.690Z",
+    "expiresAt": "2027-04-15T14:46:27.690Z",
+    "payloadSha256": "17c5bcdb609588c3149bf909b30425ed2ee64330a4859d0ac5a3cd1ae05f0094",
     "minSignatures": 1,
     "signatures": [
       {
         "keyId": "desktop-root-2026-04-b",
         "algorithm": "ed25519",
-        "signature": "FYrK3rXRJJYl+IBpMD5BlZ3enfwmLo1JLhvXYEGXelA3GhkLnn0QvgjD1K2gyXwAM7aluydraA6qqY+eXczpDQ=="
+        "signature": "UnZNhcr8DJErPuWazr7He29/3Jy6bMWhOZw3kNSo4uyQfLjd4A6/491Ph7mNDmaJyO4PIIPfm4wvKK3htJ3mDA=="
       }
     ]
   }
