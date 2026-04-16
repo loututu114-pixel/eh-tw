@@ -17,26 +17,26 @@
 
 | 平台 | 檔案 | 直接連結 |
 | --- | --- | --- |
-| macOS Universal | `EhViewer Desktop-0.2.5-universal.dmg` | <https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.5/EhViewer%20Desktop-0.2.5-universal.dmg> |
-| Windows 64-bit Setup | `EhViewer Desktop-0.2.5-x64-setup.exe` | <https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.5/EhViewer%20Desktop-0.2.5-x64-setup.exe> |
-| Windows 64-bit Portable | `EhViewer Desktop-0.2.5-x64-portable.exe` | <https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.5/EhViewer%20Desktop-0.2.5-x64-portable.exe> |
-| Windows 32-bit Setup | `EhViewer Desktop-0.2.5-ia32-setup.exe` | <https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.5/EhViewer%20Desktop-0.2.5-ia32-setup.exe> |
-| Windows 32-bit Portable | `EhViewer Desktop-0.2.5-ia32-portable.exe` | <https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.5/EhViewer%20Desktop-0.2.5-ia32-portable.exe> |
-| macOS Universal | `EhViewer Desktop-0.2.5-universal-mac.zip` | <https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.5/EhViewer%20Desktop-0.2.5-universal-mac.zip> |
+| macOS Universal | `EhViewer.Desktop-0.2.5-universal.dmg` | <https://www.eh-viewer.com/desktop/releases/0.2.5/EhViewer.Desktop-0.2.5-universal.dmg> |
+| Windows 64-bit Setup | `EhViewer.Desktop-0.2.5-x64-setup.exe` | <https://www.eh-viewer.com/desktop/releases/0.2.5/EhViewer.Desktop-0.2.5-x64-setup.exe> |
+| Windows 64-bit Portable | `EhViewer.Desktop-0.2.5-x64-portable.exe` | <https://www.eh-viewer.com/desktop/releases/0.2.5/EhViewer.Desktop-0.2.5-x64-portable.exe> |
+| Windows 32-bit Setup | `EhViewer.Desktop-0.2.5-ia32-setup.exe` | <https://www.eh-viewer.com/desktop/releases/0.2.5/EhViewer.Desktop-0.2.5-ia32-setup.exe> |
+| Windows 32-bit Portable | `EhViewer.Desktop-0.2.5-ia32-portable.exe` | <https://www.eh-viewer.com/desktop/releases/0.2.5/EhViewer.Desktop-0.2.5-ia32-portable.exe> |
+| macOS Universal | `EhViewer.Desktop-0.2.5-universal-mac.zip` | <https://www.eh-viewer.com/desktop/releases/0.2.5/EhViewer.Desktop-0.2.5-universal-mac.zip> |
 
 ## 下載
 
 ### macOS
 
-- [EhViewer Desktop-0.2.5-universal-mac.zip](https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.5/EhViewer%20Desktop-0.2.5-universal-mac.zip)
-- [EhViewer Desktop-0.2.5-universal.dmg](https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.5/EhViewer%20Desktop-0.2.5-universal.dmg)
+- [EhViewer.Desktop-0.2.5-universal-mac.zip](https://www.eh-viewer.com/desktop/releases/0.2.5/EhViewer.Desktop-0.2.5-universal-mac.zip)
+- [EhViewer.Desktop-0.2.5-universal.dmg](https://www.eh-viewer.com/desktop/releases/0.2.5/EhViewer.Desktop-0.2.5-universal.dmg)
 
 ### Windows
 
-- [EhViewer Desktop-0.2.5-ia32-portable.exe](https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.5/EhViewer%20Desktop-0.2.5-ia32-portable.exe)
-- [EhViewer Desktop-0.2.5-ia32-setup.exe](https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.5/EhViewer%20Desktop-0.2.5-ia32-setup.exe)
-- [EhViewer Desktop-0.2.5-x64-portable.exe](https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.5/EhViewer%20Desktop-0.2.5-x64-portable.exe)
-- [EhViewer Desktop-0.2.5-x64-setup.exe](https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.5/EhViewer%20Desktop-0.2.5-x64-setup.exe)
+- [EhViewer.Desktop-0.2.5-ia32-portable.exe](https://www.eh-viewer.com/desktop/releases/0.2.5/EhViewer.Desktop-0.2.5-ia32-portable.exe)
+- [EhViewer.Desktop-0.2.5-ia32-setup.exe](https://www.eh-viewer.com/desktop/releases/0.2.5/EhViewer.Desktop-0.2.5-ia32-setup.exe)
+- [EhViewer.Desktop-0.2.5-x64-portable.exe](https://www.eh-viewer.com/desktop/releases/0.2.5/EhViewer.Desktop-0.2.5-x64-portable.exe)
+- [EhViewer.Desktop-0.2.5-x64-setup.exe](https://www.eh-viewer.com/desktop/releases/0.2.5/EhViewer.Desktop-0.2.5-x64-setup.exe)
 
 ## 版本選擇
 
@@ -75,13 +75,13 @@
 
 ### macOS
 
-1. 下載 `EhViewer Desktop-0.2.5-universal.dmg`。
+1. 下載 `EhViewer.Desktop-0.2.5-universal.dmg`。
 2. 開啟映像檔後把 App 拖進 `Applications`。
 3. 第一次啟動若被 Gatekeeper 攔住，請在 Finder 右鍵選 `Open`。
 
 ### Windows
 
-1. 下載 `EhViewer Desktop-0.2.5-x64-setup.exe`。
+1. 下載 `EhViewer.Desktop-0.2.5-x64-setup.exe`。
 2. 執行安裝程式並完成安裝。
 3. 若不想安裝，可改用對應架構的 `portable.exe`。
 

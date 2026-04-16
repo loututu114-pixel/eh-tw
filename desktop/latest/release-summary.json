@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-16T12:01:28.136Z",
+  "generatedAt": "2026-04-16T12:48:54.910Z",
   "version": "0.2.5",
-  "outputDir": "/home/runner/work/eh-pc/eh-pc/dist/release-bundle/0.2.5",
+  "outputDir": "/tmp/ehviewer-0.2.5-generated-bundle",
   "artifactCount": 6,
   "manifestSigned": true,
-  "manifestPath": "/home/runner/work/eh-pc/eh-pc/dist/release-bundle/0.2.5/desktop-update.json",
-  "artifactsPath": "/home/runner/work/eh-pc/eh-pc/dist/release-bundle/0.2.5/artifacts.json",
-  "checksumsPath": "/home/runner/work/eh-pc/eh-pc/dist/release-bundle/0.2.5/SHA256SUMS.txt",
-  "latestPath": "/home/runner/work/eh-pc/eh-pc/dist/release-bundle/0.2.5/LATEST.json"
+  "manifestPath": "/tmp/ehviewer-0.2.5-generated-bundle/desktop-update.json",
+  "artifactsPath": "/tmp/ehviewer-0.2.5-generated-bundle/artifacts.json",
+  "checksumsPath": "/tmp/ehviewer-0.2.5-generated-bundle/SHA256SUMS.txt",
+  "latestPath": "/tmp/ehviewer-0.2.5-generated-bundle/LATEST.json"
 }
