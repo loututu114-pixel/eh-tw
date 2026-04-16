@@ -1,53 +1,53 @@
 {
-  "generatedAt": "2026-04-16T02:15:15.001Z",
+  "generatedAt": "2026-04-16T12:01:28.038Z",
   "artifacts": [
     {
-      "name": "EhViewer Desktop-0.2.4-ia32-portable.exe",
+      "name": "EhViewer Desktop-0.2.5-ia32-portable.exe",
       "platform": "win32",
       "arch": "ia32",
-      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.4/EhViewer%20Desktop-0.2.4-ia32-portable.exe",
-      "sizeBytes": 93143550,
-      "sha256": "2fa2588ec2ce7fef76d4d316881b9acad09fec0ff70cb0d62da87dd59ac21195"
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.5/EhViewer%20Desktop-0.2.5-ia32-portable.exe",
+      "sizeBytes": 93146448,
+      "sha256": "5e3d66c85a85b7ac20eacbbd3611049ad4ec0d04ddb7a33dc24a4f20de6b52f4"
     },
     {
-      "name": "EhViewer Desktop-0.2.4-ia32-setup.exe",
+      "name": "EhViewer Desktop-0.2.5-ia32-setup.exe",
       "platform": "win32",
       "arch": "ia32",
-      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.4/EhViewer%20Desktop-0.2.4-ia32-setup.exe",
-      "sizeBytes": 93359387,
-      "sha256": "b384c8bb610278759d0db98c0bdabdae77d2f1be21e378564ee1d7703191eaf9"
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.5/EhViewer%20Desktop-0.2.5-ia32-setup.exe",
+      "sizeBytes": 93362292,
+      "sha256": "9a042eddf66f3d89b749eefc53325cf4f23db950f3bc02e6ab14575dd7f73e3b"
     },
     {
-      "name": "EhViewer Desktop-0.2.4-universal-mac.zip",
+      "name": "EhViewer Desktop-0.2.5-universal-mac.zip",
       "platform": "darwin",
       "arch": "universal",
-      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.4/EhViewer%20Desktop-0.2.4-universal-mac.zip",
-      "sizeBytes": 211205038,
-      "sha256": "b936416c21854fb36c1acc5682523e56636128421cac9c352d46d999c9135631"
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.5/EhViewer%20Desktop-0.2.5-universal-mac.zip",
+      "sizeBytes": 211207581,
+      "sha256": "db22ac78f45b456d181c766f703a6dd2d6dd507e80bdd534cb709d8d2e6dab0e"
     },
     {
-      "name": "EhViewer Desktop-0.2.4-universal.dmg",
+      "name": "EhViewer Desktop-0.2.5-universal.dmg",
       "platform": "darwin",
       "arch": "universal",
-      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.4/EhViewer%20Desktop-0.2.4-universal.dmg",
-      "sizeBytes": 218292097,
-      "sha256": "95b5cdd98a01cc4e335cbcf566b2bde82be07a4ea02dee8e7715f78c1309743f"
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.5/EhViewer%20Desktop-0.2.5-universal.dmg",
+      "sizeBytes": 218296488,
+      "sha256": "8cc15e801e12c7de965d5a439467ef76c6d77ee3f40bf3db17406164edeaa5e2"
     },
     {
-      "name": "EhViewer Desktop-0.2.4-x64-portable.exe",
+      "name": "EhViewer Desktop-0.2.5-x64-portable.exe",
       "platform": "win32",
       "arch": "x64",
-      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.4/EhViewer%20Desktop-0.2.4-x64-portable.exe",
-      "sizeBytes": 105801910,
-      "sha256": "63a330f3993911270f0febd28ba83bf3d21be892c620731d2a34aad392a71d75"
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.5/EhViewer%20Desktop-0.2.5-x64-portable.exe",
+      "sizeBytes": 105804855,
+      "sha256": "8f401194608ad75f3134d2e49aac929e1f125add1e4adc3d1a03f8bbceb2c4ef"
     },
     {
-      "name": "EhViewer Desktop-0.2.4-x64-setup.exe",
+      "name": "EhViewer Desktop-0.2.5-x64-setup.exe",
       "platform": "win32",
       "arch": "x64",
-      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.4/EhViewer%20Desktop-0.2.4-x64-setup.exe",
-      "sizeBytes": 106018148,
-      "sha256": "ca50ee304e5a860d0e4b7b709edfcdec0fc87f6837288f52787cda000e7a87df"
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.5/EhViewer%20Desktop-0.2.5-x64-setup.exe",
+      "sizeBytes": 106021096,
+      "sha256": "764205bec027f18cb65f354020173f88400b564dc678d3c6cf92f9925dc2dd14"
     }
   ]
 }

@@ -1,0 +1,102 @@
+{
+  "version": "0.2.5",
+  "versionCode": 20500,
+  "version_name": "0.2.5",
+  "version_code": 20500,
+  "mustUpdate": false,
+  "mandatory": false,
+  "severity": "info",
+  "channels": [
+    "desktop"
+  ],
+  "min_supported": 20500,
+  "minimum_supported_version": "0.2.5",
+  "minimum_supported_version_code": 20500,
+  "manual_upgrade_before_version": "0.2.5",
+  "manual_upgrade_before_version_code": 20500,
+  "force_upgrade_versions": [],
+  "force_upgrade_version_codes": [],
+  "updateContent": {
+    "title": "EhViewer Desktop 0.2.5",
+    "content": [
+      "Add structured desktop error reporting for both main and renderer process failures.",
+      "Show runtime error reports in Settings > Advanced Runtime for direct diagnosis.",
+      "Publish 0.2.5 installers and update metadata for macOS and Windows."
+    ],
+    "fileDownloadUrl": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.5/EhViewer%20Desktop-0.2.5-universal.dmg"
+  },
+  "notice": {
+    "title": "EhViewer Desktop 0.2.5",
+    "body": "Desktop 0.2.5 adds visible runtime error reports and updated installers for macOS and Windows.",
+    "deeplink": "ehviewer-desktop://update/0.2.5",
+    "download_url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.5/EhViewer%20Desktop-0.2.5-universal.dmg"
+  },
+  "artifacts": [
+    {
+      "name": "EhViewer Desktop-0.2.5-ia32-portable.exe",
+      "platform": "win32",
+      "arch": "ia32",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.5/EhViewer%20Desktop-0.2.5-ia32-portable.exe",
+      "sha256": "5e3d66c85a85b7ac20eacbbd3611049ad4ec0d04ddb7a33dc24a4f20de6b52f4",
+      "sizeBytes": 93146448
+    },
+    {
+      "name": "EhViewer Desktop-0.2.5-ia32-setup.exe",
+      "platform": "win32",
+      "arch": "ia32",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.5/EhViewer%20Desktop-0.2.5-ia32-setup.exe",
+      "sha256": "9a042eddf66f3d89b749eefc53325cf4f23db950f3bc02e6ab14575dd7f73e3b",
+      "sizeBytes": 93362292
+    },
+    {
+      "name": "EhViewer Desktop-0.2.5-universal-mac.zip",
+      "platform": "darwin",
+      "arch": "universal",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.5/EhViewer%20Desktop-0.2.5-universal-mac.zip",
+      "sha256": "db22ac78f45b456d181c766f703a6dd2d6dd507e80bdd534cb709d8d2e6dab0e",
+      "sizeBytes": 211207581
+    },
+    {
+      "name": "EhViewer Desktop-0.2.5-universal.dmg",
+      "platform": "darwin",
+      "arch": "universal",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.5/EhViewer%20Desktop-0.2.5-universal.dmg",
+      "sha256": "8cc15e801e12c7de965d5a439467ef76c6d77ee3f40bf3db17406164edeaa5e2",
+      "sizeBytes": 218296488
+    },
+    {
+      "name": "EhViewer Desktop-0.2.5-x64-portable.exe",
+      "platform": "win32",
+      "arch": "x64",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.5/EhViewer%20Desktop-0.2.5-x64-portable.exe",
+      "sha256": "8f401194608ad75f3134d2e49aac929e1f125add1e4adc3d1a03f8bbceb2c4ef",
+      "sizeBytes": 105804855
+    },
+    {
+      "name": "EhViewer Desktop-0.2.5-x64-setup.exe",
+      "platform": "win32",
+      "arch": "x64",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.5/EhViewer%20Desktop-0.2.5-x64-setup.exe",
+      "sha256": "764205bec027f18cb65f354020173f88400b564dc678d3c6cf92f9925dc2dd14",
+      "sizeBytes": 106021096
+    }
+  ],
+  "changelog": "Add structured desktop error reporting for both main and renderer process failures.\nShow runtime error reports in Settings > Advanced Runtime for direct diagnosis.\nPublish 0.2.5 installers and update metadata for macOS and Windows.",
+  "publish_time": "2026-04-16T12:01:28.079Z",
+  "_signature": {
+    "schema": "ehviewer-control-plane-signature/v1",
+    "type": "desktop-update",
+    "sequence": 2026041618,
+    "issuedAt": "2026-04-16T12:01:28.120Z",
+    "expiresAt": "2027-04-16T12:01:28.120Z",
+    "payloadSha256": "c469861f7e1396094982358bf99ca3bb08097904c7a364cfa0afe24a41121d97",
+    "minSignatures": 1,
+    "signatures": [
+      {
+        "keyId": "desktop-root-2026-04-b",
+        "algorithm": "ed25519",
+        "signature": "vn0yx44Rc9jdq7JLstMsdPCbkoMPA8JYbqfc+MKSCaj46Ua3uQe2mskpFGEysJPZlrbfWELumO46A7VhsVp3CA=="
+      }
+    ]
+  }
+}
