@@ -1,0 +1,102 @@
+{
+  "version": "0.2.4",
+  "versionCode": 20400,
+  "version_name": "0.2.4",
+  "version_code": 20400,
+  "mustUpdate": false,
+  "mandatory": false,
+  "severity": "info",
+  "channels": [
+    "desktop"
+  ],
+  "min_supported": 20400,
+  "minimum_supported_version": "0.2.4",
+  "minimum_supported_version_code": 20400,
+  "manual_upgrade_before_version": "0.2.4",
+  "manual_upgrade_before_version_code": 20400,
+  "force_upgrade_versions": [],
+  "force_upgrade_version_codes": [],
+  "updateContent": {
+    "title": "EhViewer Desktop 0.2.4",
+    "content": [
+      "Refresh desktop surfaces with a darker compact developer-tool visual language.",
+      "Improve gallery, search, reader, catalog, and download layouts with clearer status hierarchy.",
+      "Keep release metadata aligned for the 0.2.4 desktop channel."
+    ],
+    "fileDownloadUrl": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.4/EhViewer%20Desktop-0.2.4-universal.dmg"
+  },
+  "notice": {
+    "title": "EhViewer Desktop 0.2.4",
+    "body": "Desktop release channel is live with tracked macOS installers and update metadata.",
+    "deeplink": "ehviewer-desktop://update/0.2.4",
+    "download_url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.4/EhViewer%20Desktop-0.2.4-universal.dmg"
+  },
+  "artifacts": [
+    {
+      "name": "EhViewer Desktop-0.2.4-ia32-portable.exe",
+      "platform": "win32",
+      "arch": "ia32",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.4/EhViewer%20Desktop-0.2.4-ia32-portable.exe",
+      "sha256": "2fa2588ec2ce7fef76d4d316881b9acad09fec0ff70cb0d62da87dd59ac21195",
+      "sizeBytes": 93143550
+    },
+    {
+      "name": "EhViewer Desktop-0.2.4-ia32-setup.exe",
+      "platform": "win32",
+      "arch": "ia32",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.4/EhViewer%20Desktop-0.2.4-ia32-setup.exe",
+      "sha256": "b384c8bb610278759d0db98c0bdabdae77d2f1be21e378564ee1d7703191eaf9",
+      "sizeBytes": 93359387
+    },
+    {
+      "name": "EhViewer Desktop-0.2.4-universal-mac.zip",
+      "platform": "darwin",
+      "arch": "universal",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.4/EhViewer%20Desktop-0.2.4-universal-mac.zip",
+      "sha256": "b936416c21854fb36c1acc5682523e56636128421cac9c352d46d999c9135631",
+      "sizeBytes": 211205038
+    },
+    {
+      "name": "EhViewer Desktop-0.2.4-universal.dmg",
+      "platform": "darwin",
+      "arch": "universal",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.4/EhViewer%20Desktop-0.2.4-universal.dmg",
+      "sha256": "95b5cdd98a01cc4e335cbcf566b2bde82be07a4ea02dee8e7715f78c1309743f",
+      "sizeBytes": 218292097
+    },
+    {
+      "name": "EhViewer Desktop-0.2.4-x64-portable.exe",
+      "platform": "win32",
+      "arch": "x64",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.4/EhViewer%20Desktop-0.2.4-x64-portable.exe",
+      "sha256": "63a330f3993911270f0febd28ba83bf3d21be892c620731d2a34aad392a71d75",
+      "sizeBytes": 105801910
+    },
+    {
+      "name": "EhViewer Desktop-0.2.4-x64-setup.exe",
+      "platform": "win32",
+      "arch": "x64",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.4/EhViewer%20Desktop-0.2.4-x64-setup.exe",
+      "sha256": "ca50ee304e5a860d0e4b7b709edfcdec0fc87f6837288f52787cda000e7a87df",
+      "sizeBytes": 106018148
+    }
+  ],
+  "changelog": "Refresh desktop surfaces with a darker compact developer-tool visual language.\nImprove gallery, search, reader, catalog, and download layouts with clearer status hierarchy.\nKeep release metadata aligned for the 0.2.4 desktop channel.",
+  "publish_time": "2026-04-16T02:15:15.039Z",
+  "_signature": {
+    "schema": "ehviewer-control-plane-signature/v1",
+    "type": "desktop-update",
+    "sequence": 2026041615,
+    "issuedAt": "2026-04-16T02:15:15.078Z",
+    "expiresAt": "2027-04-16T02:15:15.078Z",
+    "payloadSha256": "65c593c4a4fa3149f9cfef39dfbdf19d26f6043e948ea6062c45b1b4ed476bba",
+    "minSignatures": 1,
+    "signatures": [
+      {
+        "keyId": "desktop-root-2026-04-b",
+        "algorithm": "ed25519",
+        "signature": "uGOHA4d7rpjxNJusydsFAESvyuOjMfNeZBILB/jATYZD6E3lG7AdU45NdgOxMJf0CVcGHwT4agnFdE5Svy4KDQ=="
+      }
+    ]
+  }
+}
