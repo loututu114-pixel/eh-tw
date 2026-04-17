@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-17T13:59:55.187Z",
+  "generatedAt": "2026-04-17T14:09:01.977Z",
   "artifacts": [
     {
       "name": "EhViewer.Desktop-0.2.6-ia32-portable.exe",
       "platform": "win32",
       "arch": "ia32",
       "url": "https://www.eh-viewer.com/desktop/releases/0.2.6/EhViewer.Desktop-0.2.6-ia32-portable.exe",
-      "sizeBytes": 93146379,
-      "sha256": "c473a4b8fa830d7cda69e419f8154afe64f3b2fc48bd985ebf5d8964db268a42"
+      "sizeBytes": 93146383,
+      "sha256": "4325448162403f279f8a1ab064d2366f86dc42db105fd1e9c7ce41dd74f8ad37"
     },
     {
       "name": "EhViewer.Desktop-0.2.6-ia32-setup.exe",
       "platform": "win32",
       "arch": "ia32",
       "url": "https://www.eh-viewer.com/desktop/releases/0.2.6/EhViewer.Desktop-0.2.6-ia32-setup.exe",
-      "sizeBytes": 93362226,
-      "sha256": "a7c25d91bc2aa41e374ef49adb571ef029de5663a77e42e324bcab0247ea8935"
+      "sizeBytes": 93362291,
+      "sha256": "9875b5ddac60c8c32fca1349ae6301c6d3bdbd1f003faf40f08cab1cd4a9f436"
     },
     {
       "name": "EhViewer.Desktop-0.2.6-universal-mac.zip",
@@ -23,31 +23,31 @@
       "arch": "universal",
       "url": "https://www.eh-viewer.com/desktop/releases/0.2.6/EhViewer.Desktop-0.2.6-universal-mac.zip",
       "sizeBytes": 211196565,
-      "sha256": "064f85c60b63fafcf2c7c7c38e8c8142b313f13640cec09d0b2c5920cc3bbc50"
+      "sha256": "697bfc9dbe3402a732dcb8374d0dd0692b3d0e7886048f131b158b60e7e1940a"
     },
     {
       "name": "EhViewer.Desktop-0.2.6-universal.dmg",
       "platform": "darwin",
       "arch": "universal",
       "url": "https://www.eh-viewer.com/desktop/releases/0.2.6/EhViewer.Desktop-0.2.6-universal.dmg",
-      "sizeBytes": 218266579,
-      "sha256": "8667d64588daacc0ee266872421dc4993ff44caf65bf8d1656b9e8ce5652b039"
+      "sizeBytes": 218266594,
+      "sha256": "4e78b1dc83c6ecc6054626596ae7a851248b816b4b9bf2906bb646b37c8272aa"
     },
     {
       "name": "EhViewer.Desktop-0.2.6-x64-portable.exe",
       "platform": "win32",
       "arch": "x64",
       "url": "https://www.eh-viewer.com/desktop/releases/0.2.6/EhViewer.Desktop-0.2.6-x64-portable.exe",
-      "sizeBytes": 105804581,
-      "sha256": "222eea56480199de5f2f6b5d42909cca3d6d2c358bd81aea037141b9edf7e0ee"
+      "sizeBytes": 105804659,
+      "sha256": "b8ea702340480e14b7aeee09086f67e72b2a523b9da9772056ca43fae28ed2bd"
     },
     {
       "name": "EhViewer.Desktop-0.2.6-x64-setup.exe",
       "platform": "win32",
       "arch": "x64",
       "url": "https://www.eh-viewer.com/desktop/releases/0.2.6/EhViewer.Desktop-0.2.6-x64-setup.exe",
-      "sizeBytes": 106020821,
-      "sha256": "d8230b6c2135f6a3108dc38d79e6a2552b278171b3d3608ea3173ff6b446ebe3"
+      "sizeBytes": 106020903,
+      "sha256": "da60c57ea0f3a958973d0f042ab13f6e9154083acf49e6a30735f6ee6ae17eee"
     }
   ]
 }
