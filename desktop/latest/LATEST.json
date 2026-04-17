@@ -37,7 +37,7 @@
       "platform": "win32",
       "arch": "ia32",
       "url": "https://www.eh-viewer.com/desktop/releases/0.2.6/EhViewer.Desktop-0.2.6-ia32-portable.exe",
-      "sha256": "c0267d23d9b92f4feb4329d3f15d3ce092ac6b402c5910a1bfd6e191abc30432",
+      "sha256": "c473a4b8fa830d7cda69e419f8154afe64f3b2fc48bd985ebf5d8964db268a42",
       "sizeBytes": 93146379
     },
     {
@@ -45,15 +45,15 @@
       "platform": "win32",
       "arch": "ia32",
       "url": "https://www.eh-viewer.com/desktop/releases/0.2.6/EhViewer.Desktop-0.2.6-ia32-setup.exe",
-      "sha256": "70e60c2fc728a488e06554b65d8c0393ae566464f8a0a3a1a6df22441ddb6e04",
-      "sizeBytes": 93362220
+      "sha256": "a7c25d91bc2aa41e374ef49adb571ef029de5663a77e42e324bcab0247ea8935",
+      "sizeBytes": 93362226
     },
     {
       "name": "EhViewer.Desktop-0.2.6-universal-mac.zip",
       "platform": "darwin",
       "arch": "universal",
       "url": "https://www.eh-viewer.com/desktop/releases/0.2.6/EhViewer.Desktop-0.2.6-universal-mac.zip",
-      "sha256": "db0edc7a59b7cb729070a3d96ec000d7427719b0b490cb5dea60134680532388",
+      "sha256": "064f85c60b63fafcf2c7c7c38e8c8142b313f13640cec09d0b2c5920cc3bbc50",
       "sizeBytes": 211196565
     },
     {
@@ -61,41 +61,41 @@
       "platform": "darwin",
       "arch": "universal",
       "url": "https://www.eh-viewer.com/desktop/releases/0.2.6/EhViewer.Desktop-0.2.6-universal.dmg",
-      "sha256": "d8ef88776c8f27f1e2c72ec68e25ade7864149091545e6464a6b4d9489287b8d",
-      "sizeBytes": 218266584
+      "sha256": "8667d64588daacc0ee266872421dc4993ff44caf65bf8d1656b9e8ce5652b039",
+      "sizeBytes": 218266579
     },
     {
       "name": "EhViewer.Desktop-0.2.6-x64-portable.exe",
       "platform": "win32",
       "arch": "x64",
       "url": "https://www.eh-viewer.com/desktop/releases/0.2.6/EhViewer.Desktop-0.2.6-x64-portable.exe",
-      "sha256": "f4726c4a3026e7ba57f9e20fb097b061875b01359a79428b8c26b8e7b9a301de",
-      "sizeBytes": 105804667
+      "sha256": "222eea56480199de5f2f6b5d42909cca3d6d2c358bd81aea037141b9edf7e0ee",
+      "sizeBytes": 105804581
     },
     {
       "name": "EhViewer.Desktop-0.2.6-x64-setup.exe",
       "platform": "win32",
       "arch": "x64",
       "url": "https://www.eh-viewer.com/desktop/releases/0.2.6/EhViewer.Desktop-0.2.6-x64-setup.exe",
-      "sha256": "f0c67b6c8b5790900889e5b3685f225bdce30d1b52575c78804a82a8f561b6aa",
-      "sizeBytes": 106020907
+      "sha256": "d8230b6c2135f6a3108dc38d79e6a2552b278171b3d3608ea3173ff6b446ebe3",
+      "sizeBytes": 106020821
     }
   ],
   "changelog": "Tighten gallery detail, search, and reader surfaces so artwork and reading actions stay dominant while low-value controls recede.\nReduce visual load across sidebar, home, library, downloads, history, favorites, and settings with denser summaries and calmer status chrome.\nDefault desktop startup to the main window, move mobile app download to QR access, and publish 0.2.6 installers plus website metadata.",
-  "publish_time": "2026-04-17T13:49:23.613Z",
+  "publish_time": "2026-04-17T13:59:55.228Z",
   "_signature": {
     "schema": "ehviewer-control-plane-signature/v1",
     "type": "desktop-update",
-    "sequence": 2026041720,
-    "issuedAt": "2026-04-17T13:49:23.656Z",
-    "expiresAt": "2027-04-17T13:49:23.656Z",
-    "payloadSha256": "aba8403d564388049da4dd71bdcdbb7d9828eeb8e611751a870726af0b5b1963",
+    "sequence": 2026041721,
+    "issuedAt": "2026-04-17T13:59:55.270Z",
+    "expiresAt": "2027-04-17T13:59:55.270Z",
+    "payloadSha256": "d8ceaaf1c61636c4cf1de017fa73527d0b12d5522a1951492d4ef8ba2455e50a",
     "minSignatures": 1,
     "signatures": [
       {
         "keyId": "desktop-root-2026-04-b",
         "algorithm": "ed25519",
-        "signature": "hi7AVeiNquzfH+0B+hehSPr7Ujt5xw7ZNKB5BhFG0mS+2ept2g3TUlsmCeqpYFIXDxMVDkZIWXsPFcAxKOsdCA=="
+        "signature": "r3B4C5RTu106gWkZ4j4ddrJWtxlvl+YZbCfCRssd5+fbsU1yjKpv1v1H9DvO7VLY9xUhgm9M4o7X2mTc5hesAQ=="
       }
     ]
   }
