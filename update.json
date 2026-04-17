@@ -1,6 +1,6 @@
 {
-  "version": "2.2.2.1",
-  "versionCode": 222001,
+  "version": "2.2.2.2",
+  "versionCode": 222002,
   "mustUpdate": false,
   "minimumSupportedVersion": "",
   "minimumSupportedVersionCode": 0,
@@ -9,11 +9,11 @@
   "forceUpgradeVersions": [],
   "forceUpgradeVersionCodes": [],
   "updateContent": {
-    "title": "EhViewer 2.2.2.1 Runtime Alignment Refresh",
+    "title": "EhViewer 2.2.2.2 Runtime Alignment Refresh",
     "content": [
-      "This release refreshes the install package to 2.2.2.1 and aligns bundled runtime metadata with the new build.",
+      "This release refreshes the install package to 2.2.2.2 and aligns bundled runtime metadata with the new build.",
       "Release artifacts continue to use the fixed official shortlink registry and channel-specific package targets.",
-      "Older builds should upgrade to 2.2.2.1 to stay on the current package and update path."
+      "Older builds should upgrade to 2.2.2.2 to stay on the current package and update path."
     ],
     "fileDownloadUrl": "https://app.downlogin.com/d/7faf433833769e8d"
   }
