@@ -1,0 +1,102 @@
+{
+  "version": "0.2.6",
+  "versionCode": 20600,
+  "version_name": "0.2.6",
+  "version_code": 20600,
+  "mustUpdate": false,
+  "mandatory": false,
+  "severity": "info",
+  "channels": [
+    "desktop"
+  ],
+  "min_supported": 20600,
+  "minimum_supported_version": "0.2.6",
+  "minimum_supported_version_code": 20600,
+  "manual_upgrade_before_version": "0.2.6",
+  "manual_upgrade_before_version_code": 20600,
+  "force_upgrade_versions": [],
+  "force_upgrade_version_codes": [],
+  "updateContent": {
+    "title": "EhViewer Desktop 0.2.6",
+    "content": [
+      "Tighten gallery detail, search, and reader surfaces so artwork and reading actions stay dominant while low-value controls recede.",
+      "Reduce visual load across sidebar, home, library, downloads, history, favorites, and settings with denser summaries and calmer status chrome.",
+      "Default desktop startup to the main window, move mobile app download to QR access, and publish 0.2.6 installers plus website metadata."
+    ],
+    "fileDownloadUrl": "https://www.eh-viewer.com/desktop/releases/0.2.6/EhViewer.Desktop-0.2.6-universal.dmg"
+  },
+  "notice": {
+    "title": "EhViewer Desktop 0.2.6",
+    "body": "Desktop 0.2.6 makes the interface denser, calmer, and faster to scan while keeping the release channel aligned with the website.",
+    "deeplink": "ehviewer-desktop://update/0.2.6",
+    "download_url": "https://www.eh-viewer.com/desktop/releases/0.2.6/EhViewer.Desktop-0.2.6-universal.dmg"
+  },
+  "artifacts": [
+    {
+      "name": "EhViewer.Desktop-0.2.6-ia32-portable.exe",
+      "platform": "win32",
+      "arch": "ia32",
+      "url": "https://www.eh-viewer.com/desktop/releases/0.2.6/EhViewer.Desktop-0.2.6-ia32-portable.exe",
+      "sha256": "c0267d23d9b92f4feb4329d3f15d3ce092ac6b402c5910a1bfd6e191abc30432",
+      "sizeBytes": 93146379
+    },
+    {
+      "name": "EhViewer.Desktop-0.2.6-ia32-setup.exe",
+      "platform": "win32",
+      "arch": "ia32",
+      "url": "https://www.eh-viewer.com/desktop/releases/0.2.6/EhViewer.Desktop-0.2.6-ia32-setup.exe",
+      "sha256": "70e60c2fc728a488e06554b65d8c0393ae566464f8a0a3a1a6df22441ddb6e04",
+      "sizeBytes": 93362220
+    },
+    {
+      "name": "EhViewer.Desktop-0.2.6-universal-mac.zip",
+      "platform": "darwin",
+      "arch": "universal",
+      "url": "https://www.eh-viewer.com/desktop/releases/0.2.6/EhViewer.Desktop-0.2.6-universal-mac.zip",
+      "sha256": "db0edc7a59b7cb729070a3d96ec000d7427719b0b490cb5dea60134680532388",
+      "sizeBytes": 211196565
+    },
+    {
+      "name": "EhViewer.Desktop-0.2.6-universal.dmg",
+      "platform": "darwin",
+      "arch": "universal",
+      "url": "https://www.eh-viewer.com/desktop/releases/0.2.6/EhViewer.Desktop-0.2.6-universal.dmg",
+      "sha256": "d8ef88776c8f27f1e2c72ec68e25ade7864149091545e6464a6b4d9489287b8d",
+      "sizeBytes": 218266584
+    },
+    {
+      "name": "EhViewer.Desktop-0.2.6-x64-portable.exe",
+      "platform": "win32",
+      "arch": "x64",
+      "url": "https://www.eh-viewer.com/desktop/releases/0.2.6/EhViewer.Desktop-0.2.6-x64-portable.exe",
+      "sha256": "f4726c4a3026e7ba57f9e20fb097b061875b01359a79428b8c26b8e7b9a301de",
+      "sizeBytes": 105804667
+    },
+    {
+      "name": "EhViewer.Desktop-0.2.6-x64-setup.exe",
+      "platform": "win32",
+      "arch": "x64",
+      "url": "https://www.eh-viewer.com/desktop/releases/0.2.6/EhViewer.Desktop-0.2.6-x64-setup.exe",
+      "sha256": "f0c67b6c8b5790900889e5b3685f225bdce30d1b52575c78804a82a8f561b6aa",
+      "sizeBytes": 106020907
+    }
+  ],
+  "changelog": "Tighten gallery detail, search, and reader surfaces so artwork and reading actions stay dominant while low-value controls recede.\nReduce visual load across sidebar, home, library, downloads, history, favorites, and settings with denser summaries and calmer status chrome.\nDefault desktop startup to the main window, move mobile app download to QR access, and publish 0.2.6 installers plus website metadata.",
+  "publish_time": "2026-04-17T13:49:23.613Z",
+  "_signature": {
+    "schema": "ehviewer-control-plane-signature/v1",
+    "type": "desktop-update",
+    "sequence": 2026041720,
+    "issuedAt": "2026-04-17T13:49:23.656Z",
+    "expiresAt": "2027-04-17T13:49:23.656Z",
+    "payloadSha256": "aba8403d564388049da4dd71bdcdbb7d9828eeb8e611751a870726af0b5b1963",
+    "minSignatures": 1,
+    "signatures": [
+      {
+        "keyId": "desktop-root-2026-04-b",
+        "algorithm": "ed25519",
+        "signature": "hi7AVeiNquzfH+0B+hehSPr7Ujt5xw7ZNKB5BhFG0mS+2ept2g3TUlsmCeqpYFIXDxMVDkZIWXsPFcAxKOsdCA=="
+      }
+    ]
+  }
+}

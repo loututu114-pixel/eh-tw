@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-04-17T13:49:23.574Z",
+  "artifacts": [
+    {
+      "name": "EhViewer.Desktop-0.2.6-ia32-portable.exe",
+      "platform": "win32",
+      "arch": "ia32",
+      "url": "https://www.eh-viewer.com/desktop/releases/0.2.6/EhViewer.Desktop-0.2.6-ia32-portable.exe",
+      "sizeBytes": 93146379,
+      "sha256": "c0267d23d9b92f4feb4329d3f15d3ce092ac6b402c5910a1bfd6e191abc30432"
+    },
+    {
+      "name": "EhViewer.Desktop-0.2.6-ia32-setup.exe",
+      "platform": "win32",
+      "arch": "ia32",
+      "url": "https://www.eh-viewer.com/desktop/releases/0.2.6/EhViewer.Desktop-0.2.6-ia32-setup.exe",
+      "sizeBytes": 93362220,
+      "sha256": "70e60c2fc728a488e06554b65d8c0393ae566464f8a0a3a1a6df22441ddb6e04"
+    },
+    {
+      "name": "EhViewer.Desktop-0.2.6-universal-mac.zip",
+      "platform": "darwin",
+      "arch": "universal",
+      "url": "https://www.eh-viewer.com/desktop/releases/0.2.6/EhViewer.Desktop-0.2.6-universal-mac.zip",
+      "sizeBytes": 211196565,
+      "sha256": "db0edc7a59b7cb729070a3d96ec000d7427719b0b490cb5dea60134680532388"
+    },
+    {
+      "name": "EhViewer.Desktop-0.2.6-universal.dmg",
+      "platform": "darwin",
+      "arch": "universal",
+      "url": "https://www.eh-viewer.com/desktop/releases/0.2.6/EhViewer.Desktop-0.2.6-universal.dmg",
+      "sizeBytes": 218266584,
+      "sha256": "d8ef88776c8f27f1e2c72ec68e25ade7864149091545e6464a6b4d9489287b8d"
+    },
+    {
+      "name": "EhViewer.Desktop-0.2.6-x64-portable.exe",
+      "platform": "win32",
+      "arch": "x64",
+      "url": "https://www.eh-viewer.com/desktop/releases/0.2.6/EhViewer.Desktop-0.2.6-x64-portable.exe",
+      "sizeBytes": 105804667,
+      "sha256": "f4726c4a3026e7ba57f9e20fb097b061875b01359a79428b8c26b8e7b9a301de"
+    },
+    {
+      "name": "EhViewer.Desktop-0.2.6-x64-setup.exe",
+      "platform": "win32",
+      "arch": "x64",
+      "url": "https://www.eh-viewer.com/desktop/releases/0.2.6/EhViewer.Desktop-0.2.6-x64-setup.exe",
+      "sizeBytes": 106020907,
+      "sha256": "f0c67b6c8b5790900889e5b3685f225bdce30d1b52575c78804a82a8f561b6aa"
+    }
+  ]
+}

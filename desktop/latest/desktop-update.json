@@ -1,101 +1,101 @@
 {
-  "version": "0.2.5",
-  "versionCode": 20500,
-  "version_name": "0.2.5",
-  "version_code": 20500,
+  "version": "0.2.6",
+  "versionCode": 20600,
+  "version_name": "0.2.6",
+  "version_code": 20600,
   "mustUpdate": false,
   "mandatory": false,
   "severity": "info",
   "channels": [
     "desktop"
   ],
-  "min_supported": 20500,
-  "minimum_supported_version": "0.2.5",
-  "minimum_supported_version_code": 20500,
-  "manual_upgrade_before_version": "0.2.5",
-  "manual_upgrade_before_version_code": 20500,
+  "min_supported": 20600,
+  "minimum_supported_version": "0.2.6",
+  "minimum_supported_version_code": 20600,
+  "manual_upgrade_before_version": "0.2.6",
+  "manual_upgrade_before_version_code": 20600,
   "force_upgrade_versions": [],
   "force_upgrade_version_codes": [],
   "updateContent": {
-    "title": "EhViewer Desktop 0.2.5",
+    "title": "EhViewer Desktop 0.2.6",
     "content": [
-      "Add structured desktop error reporting for both main and renderer process failures.",
-      "Show runtime error reports in Settings > Advanced Runtime for direct diagnosis.",
-      "Publish 0.2.5 installers and update metadata for macOS and Windows."
+      "Tighten gallery detail, search, and reader surfaces so artwork and reading actions stay dominant while low-value controls recede.",
+      "Reduce visual load across sidebar, home, library, downloads, history, favorites, and settings with denser summaries and calmer status chrome.",
+      "Default desktop startup to the main window, move mobile app download to QR access, and publish 0.2.6 installers plus website metadata."
     ],
-    "fileDownloadUrl": "https://www.eh-viewer.com/desktop/releases/0.2.5/EhViewer.Desktop-0.2.5-universal.dmg"
+    "fileDownloadUrl": "https://www.eh-viewer.com/desktop/releases/0.2.6/EhViewer.Desktop-0.2.6-universal.dmg"
   },
   "notice": {
-    "title": "EhViewer Desktop 0.2.5",
-    "body": "Desktop 0.2.5 adds visible runtime error reports and updated installers for macOS and Windows.",
-    "deeplink": "ehviewer-desktop://update/0.2.5",
-    "download_url": "https://www.eh-viewer.com/desktop/releases/0.2.5/EhViewer.Desktop-0.2.5-universal.dmg"
+    "title": "EhViewer Desktop 0.2.6",
+    "body": "Desktop 0.2.6 makes the interface denser, calmer, and faster to scan while keeping the release channel aligned with the website.",
+    "deeplink": "ehviewer-desktop://update/0.2.6",
+    "download_url": "https://www.eh-viewer.com/desktop/releases/0.2.6/EhViewer.Desktop-0.2.6-universal.dmg"
   },
   "artifacts": [
     {
-      "name": "EhViewer.Desktop-0.2.5-ia32-portable.exe",
+      "name": "EhViewer.Desktop-0.2.6-ia32-portable.exe",
       "platform": "win32",
       "arch": "ia32",
-      "url": "https://www.eh-viewer.com/desktop/releases/0.2.5/EhViewer.Desktop-0.2.5-ia32-portable.exe",
-      "sha256": "5e3d66c85a85b7ac20eacbbd3611049ad4ec0d04ddb7a33dc24a4f20de6b52f4",
-      "sizeBytes": 93146448
+      "url": "https://www.eh-viewer.com/desktop/releases/0.2.6/EhViewer.Desktop-0.2.6-ia32-portable.exe",
+      "sha256": "c0267d23d9b92f4feb4329d3f15d3ce092ac6b402c5910a1bfd6e191abc30432",
+      "sizeBytes": 93146379
     },
     {
-      "name": "EhViewer.Desktop-0.2.5-ia32-setup.exe",
+      "name": "EhViewer.Desktop-0.2.6-ia32-setup.exe",
       "platform": "win32",
       "arch": "ia32",
-      "url": "https://www.eh-viewer.com/desktop/releases/0.2.5/EhViewer.Desktop-0.2.5-ia32-setup.exe",
-      "sha256": "9a042eddf66f3d89b749eefc53325cf4f23db950f3bc02e6ab14575dd7f73e3b",
-      "sizeBytes": 93362292
+      "url": "https://www.eh-viewer.com/desktop/releases/0.2.6/EhViewer.Desktop-0.2.6-ia32-setup.exe",
+      "sha256": "70e60c2fc728a488e06554b65d8c0393ae566464f8a0a3a1a6df22441ddb6e04",
+      "sizeBytes": 93362220
     },
     {
-      "name": "EhViewer.Desktop-0.2.5-universal-mac.zip",
+      "name": "EhViewer.Desktop-0.2.6-universal-mac.zip",
       "platform": "darwin",
       "arch": "universal",
-      "url": "https://www.eh-viewer.com/desktop/releases/0.2.5/EhViewer.Desktop-0.2.5-universal-mac.zip",
-      "sha256": "db22ac78f45b456d181c766f703a6dd2d6dd507e80bdd534cb709d8d2e6dab0e",
-      "sizeBytes": 211207581
+      "url": "https://www.eh-viewer.com/desktop/releases/0.2.6/EhViewer.Desktop-0.2.6-universal-mac.zip",
+      "sha256": "db0edc7a59b7cb729070a3d96ec000d7427719b0b490cb5dea60134680532388",
+      "sizeBytes": 211196565
     },
     {
-      "name": "EhViewer.Desktop-0.2.5-universal.dmg",
+      "name": "EhViewer.Desktop-0.2.6-universal.dmg",
       "platform": "darwin",
       "arch": "universal",
-      "url": "https://www.eh-viewer.com/desktop/releases/0.2.5/EhViewer.Desktop-0.2.5-universal.dmg",
-      "sha256": "8cc15e801e12c7de965d5a439467ef76c6d77ee3f40bf3db17406164edeaa5e2",
-      "sizeBytes": 218296488
+      "url": "https://www.eh-viewer.com/desktop/releases/0.2.6/EhViewer.Desktop-0.2.6-universal.dmg",
+      "sha256": "d8ef88776c8f27f1e2c72ec68e25ade7864149091545e6464a6b4d9489287b8d",
+      "sizeBytes": 218266584
     },
     {
-      "name": "EhViewer.Desktop-0.2.5-x64-portable.exe",
+      "name": "EhViewer.Desktop-0.2.6-x64-portable.exe",
       "platform": "win32",
       "arch": "x64",
-      "url": "https://www.eh-viewer.com/desktop/releases/0.2.5/EhViewer.Desktop-0.2.5-x64-portable.exe",
-      "sha256": "8f401194608ad75f3134d2e49aac929e1f125add1e4adc3d1a03f8bbceb2c4ef",
-      "sizeBytes": 105804855
+      "url": "https://www.eh-viewer.com/desktop/releases/0.2.6/EhViewer.Desktop-0.2.6-x64-portable.exe",
+      "sha256": "f4726c4a3026e7ba57f9e20fb097b061875b01359a79428b8c26b8e7b9a301de",
+      "sizeBytes": 105804667
     },
     {
-      "name": "EhViewer.Desktop-0.2.5-x64-setup.exe",
+      "name": "EhViewer.Desktop-0.2.6-x64-setup.exe",
       "platform": "win32",
       "arch": "x64",
-      "url": "https://www.eh-viewer.com/desktop/releases/0.2.5/EhViewer.Desktop-0.2.5-x64-setup.exe",
-      "sha256": "764205bec027f18cb65f354020173f88400b564dc678d3c6cf92f9925dc2dd14",
-      "sizeBytes": 106021096
+      "url": "https://www.eh-viewer.com/desktop/releases/0.2.6/EhViewer.Desktop-0.2.6-x64-setup.exe",
+      "sha256": "f0c67b6c8b5790900889e5b3685f225bdce30d1b52575c78804a82a8f561b6aa",
+      "sizeBytes": 106020907
     }
   ],
-  "changelog": "Add structured desktop error reporting for both main and renderer process failures.\nShow runtime error reports in Settings > Advanced Runtime for direct diagnosis.\nPublish 0.2.5 installers and update metadata for macOS and Windows.",
-  "publish_time": "2026-04-16T12:48:54.833Z",
+  "changelog": "Tighten gallery detail, search, and reader surfaces so artwork and reading actions stay dominant while low-value controls recede.\nReduce visual load across sidebar, home, library, downloads, history, favorites, and settings with denser summaries and calmer status chrome.\nDefault desktop startup to the main window, move mobile app download to QR access, and publish 0.2.6 installers plus website metadata.",
+  "publish_time": "2026-04-17T13:49:23.613Z",
   "_signature": {
     "schema": "ehviewer-control-plane-signature/v1",
     "type": "desktop-update",
-    "sequence": 2026041621,
-    "issuedAt": "2026-04-16T12:48:54.900Z",
-    "expiresAt": "2027-04-16T12:48:54.900Z",
-    "payloadSha256": "64cd32adaa76bcf8853f41ca4f4230ac5d4d28bbf3c44c711969ff7ff4b33942",
+    "sequence": 2026041720,
+    "issuedAt": "2026-04-17T13:49:23.656Z",
+    "expiresAt": "2027-04-17T13:49:23.656Z",
+    "payloadSha256": "aba8403d564388049da4dd71bdcdbb7d9828eeb8e611751a870726af0b5b1963",
     "minSignatures": 1,
     "signatures": [
       {
         "keyId": "desktop-root-2026-04-b",
         "algorithm": "ed25519",
-        "signature": "NTwDmfG869jYhKeVtYFMrwr8i31jH269PIWLuyxgzTqil1aUq3qBKsKSYJLfpV0yj475PZEfzPI75EQmWZaRBw=="
+        "signature": "hi7AVeiNquzfH+0B+hehSPr7Ujt5xw7ZNKB5BhFG0mS+2ept2g3TUlsmCeqpYFIXDxMVDkZIWXsPFcAxKOsdCA=="
       }
     ]
   }
