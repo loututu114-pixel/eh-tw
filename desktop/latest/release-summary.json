@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-17T14:09:02.076Z",
-  "version": "0.2.6",
-  "outputDir": "/home/runner/work/eh-pc/eh-pc/dist/release-bundle/0.2.6",
+  "generatedAt": "2026-04-25T19:11:03.343Z",
+  "version": "0.2.7",
+  "outputDir": "/home/runner/work/eh-pc/eh-pc/dist/release-bundle/0.2.7-github",
   "artifactCount": 6,
   "manifestSigned": true,
-  "manifestPath": "/home/runner/work/eh-pc/eh-pc/dist/release-bundle/0.2.6/desktop-update.json",
-  "artifactsPath": "/home/runner/work/eh-pc/eh-pc/dist/release-bundle/0.2.6/artifacts.json",
-  "checksumsPath": "/home/runner/work/eh-pc/eh-pc/dist/release-bundle/0.2.6/SHA256SUMS.txt",
-  "latestPath": "/home/runner/work/eh-pc/eh-pc/dist/release-bundle/0.2.6/LATEST.json"
+  "manifestPath": "/home/runner/work/eh-pc/eh-pc/dist/release-bundle/0.2.7-github/desktop-update.json",
+  "artifactsPath": "/home/runner/work/eh-pc/eh-pc/dist/release-bundle/0.2.7-github/artifacts.json",
+  "checksumsPath": "/home/runner/work/eh-pc/eh-pc/dist/release-bundle/0.2.7-github/SHA256SUMS.txt",
+  "latestPath": "/home/runner/work/eh-pc/eh-pc/dist/release-bundle/0.2.7-github/LATEST.json"
 }
