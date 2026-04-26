@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-04-26T13:35:53.392Z",
+  "artifacts": [
+    {
+      "name": "EhViewer.Desktop-0.2.8-ia32-portable.exe",
+      "platform": "win32",
+      "arch": "ia32",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.8/EhViewer.Desktop-0.2.8-ia32-portable.exe",
+      "sizeBytes": 93154664,
+      "sha256": "4fe2313fa018e9db442128a482c22cc3c66ac8a4bbb91ad039437ccd04e47cbb"
+    },
+    {
+      "name": "EhViewer.Desktop-0.2.8-ia32-setup.exe",
+      "platform": "win32",
+      "arch": "ia32",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.8/EhViewer.Desktop-0.2.8-ia32-setup.exe",
+      "sizeBytes": 93370504,
+      "sha256": "c0ad883ae4fd919645f8e76512493bcd022159e32438af01739ec450468e3763"
+    },
+    {
+      "name": "EhViewer.Desktop-0.2.8-universal-mac.zip",
+      "platform": "darwin",
+      "arch": "universal",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.8/EhViewer.Desktop-0.2.8-universal-mac.zip",
+      "sizeBytes": 211206042,
+      "sha256": "d406a69e34056952eac34b5ce183bf060601fe89ec4e1115cd0e66c6c6821e9c"
+    },
+    {
+      "name": "EhViewer.Desktop-0.2.8-universal.dmg",
+      "platform": "darwin",
+      "arch": "universal",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.8/EhViewer.Desktop-0.2.8-universal.dmg",
+      "sizeBytes": 218256449,
+      "sha256": "2391ace29c8ee9563b5ab9675b35139f24ad75f3dcc72e5243e8b8ed2af0f90e"
+    },
+    {
+      "name": "EhViewer.Desktop-0.2.8-x64-portable.exe",
+      "platform": "win32",
+      "arch": "x64",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.8/EhViewer.Desktop-0.2.8-x64-portable.exe",
+      "sizeBytes": 105802564,
+      "sha256": "486c45fb762013dd229df88ebd394216ab9d328738c8da2cd0f3c7af0113ac11"
+    },
+    {
+      "name": "EhViewer.Desktop-0.2.8-x64-setup.exe",
+      "platform": "win32",
+      "arch": "x64",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.8/EhViewer.Desktop-0.2.8-x64-setup.exe",
+      "sizeBytes": 106018810,
+      "sha256": "674a1a2acb4f2aa18c3afa954f3f02ea75094220bde42bee996ff1b4f5f777c9"
+    }
+  ]
+}

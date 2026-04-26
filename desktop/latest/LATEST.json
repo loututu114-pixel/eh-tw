@@ -1,8 +1,8 @@
 {
-  "version": "0.2.7",
-  "versionCode": 20700,
-  "version_name": "0.2.7",
-  "version_code": 20700,
+  "version": "0.2.8",
+  "versionCode": 20800,
+  "version_name": "0.2.8",
+  "version_code": 20800,
   "mustUpdate": false,
   "mandatory": false,
   "severity": "info",
@@ -17,85 +17,85 @@
   "force_upgrade_versions": [],
   "force_upgrade_version_codes": [],
   "updateContent": {
-    "title": "EhViewer Desktop 0.2.7",
+    "title": "EhViewer Desktop 0.2.8",
     "content": [
-      "Improve desktop shutdown so window and tab state are saved before the sidecar stops.",
-      "Guard late settings IPC during quit with cached settings instead of surfacing shutdown errors.",
-      "Harden gallery request error handling and release publishing so signed website artifacts are verified before upgrade metadata goes live."
+      "Fix the gallery library so local catalog mode no longer shows the torrent source or a false zero-result state.",
+      "Improve gallery loading with deferred local catalog sync, route-level workspace loading, and cached thumbnail URL normalization.",
+      "Reduce initial renderer work with split vendor chunks, progressive list rendering, lazy thumbnails, and batched reader scroll updates."
     ],
-    "fileDownloadUrl": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.7/EhViewer.Desktop-0.2.7-universal.dmg"
+    "fileDownloadUrl": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.8/EhViewer.Desktop-0.2.8-universal.dmg"
   },
   "notice": {
-    "title": "EhViewer Desktop 0.2.7",
-    "body": "Desktop 0.2.7 improves shutdown reliability, network error handling, and the signed desktop release path.",
-    "deeplink": "ehviewer-desktop://update/0.2.7",
-    "download_url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.7/EhViewer.Desktop-0.2.7-universal.dmg"
+    "title": "EhViewer Desktop 0.2.8",
+    "body": "Desktop 0.2.8 fixes the gallery library empty-state/source mix-up and improves loading and rendering performance.",
+    "deeplink": "ehviewer-desktop://update/0.2.8",
+    "download_url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.8/EhViewer.Desktop-0.2.8-universal.dmg"
   },
   "artifacts": [
     {
-      "name": "EhViewer.Desktop-0.2.7-ia32-portable.exe",
+      "name": "EhViewer.Desktop-0.2.8-ia32-portable.exe",
       "platform": "win32",
       "arch": "ia32",
-      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.7/EhViewer.Desktop-0.2.7-ia32-portable.exe",
-      "sha256": "4c574b4d51420114a4c234fe13d1875928b3e2f532b843a58b0538b1a451531b",
-      "sizeBytes": 93146806
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.8/EhViewer.Desktop-0.2.8-ia32-portable.exe",
+      "sha256": "4fe2313fa018e9db442128a482c22cc3c66ac8a4bbb91ad039437ccd04e47cbb",
+      "sizeBytes": 93154664
     },
     {
-      "name": "EhViewer.Desktop-0.2.7-ia32-setup.exe",
+      "name": "EhViewer.Desktop-0.2.8-ia32-setup.exe",
       "platform": "win32",
       "arch": "ia32",
-      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.7/EhViewer.Desktop-0.2.7-ia32-setup.exe",
-      "sha256": "b92eb5e7217d6ed5e2433f14a39ecd5fa44ad25d6bb1ffe06df654e506c78a69",
-      "sizeBytes": 93362638
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.8/EhViewer.Desktop-0.2.8-ia32-setup.exe",
+      "sha256": "c0ad883ae4fd919645f8e76512493bcd022159e32438af01739ec450468e3763",
+      "sizeBytes": 93370504
     },
     {
-      "name": "EhViewer.Desktop-0.2.7-universal-mac.zip",
+      "name": "EhViewer.Desktop-0.2.8-universal-mac.zip",
       "platform": "darwin",
       "arch": "universal",
-      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.7/EhViewer.Desktop-0.2.7-universal-mac.zip",
-      "sha256": "371ad98ee7d57970b25a81c99630d4004f08317f6481b5b161d11f44cb5d1a1e",
-      "sizeBytes": 211196764
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.8/EhViewer.Desktop-0.2.8-universal-mac.zip",
+      "sha256": "d406a69e34056952eac34b5ce183bf060601fe89ec4e1115cd0e66c6c6821e9c",
+      "sizeBytes": 211206042
     },
     {
-      "name": "EhViewer.Desktop-0.2.7-universal.dmg",
+      "name": "EhViewer.Desktop-0.2.8-universal.dmg",
       "platform": "darwin",
       "arch": "universal",
-      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.7/EhViewer.Desktop-0.2.7-universal.dmg",
-      "sha256": "b021716bb7a8a8842e088b07465d52602604c7ca785c0f8db61e581ccbb48c39",
-      "sizeBytes": 218273828
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.8/EhViewer.Desktop-0.2.8-universal.dmg",
+      "sha256": "2391ace29c8ee9563b5ab9675b35139f24ad75f3dcc72e5243e8b8ed2af0f90e",
+      "sizeBytes": 218256449
     },
     {
-      "name": "EhViewer.Desktop-0.2.7-x64-portable.exe",
+      "name": "EhViewer.Desktop-0.2.8-x64-portable.exe",
       "platform": "win32",
       "arch": "x64",
-      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.7/EhViewer.Desktop-0.2.7-x64-portable.exe",
-      "sha256": "621207bcb2f19874215eb9df0fef342d58028c7fa2dfb66b0f5032b06fa3cd9f",
-      "sizeBytes": 105794819
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.8/EhViewer.Desktop-0.2.8-x64-portable.exe",
+      "sha256": "486c45fb762013dd229df88ebd394216ab9d328738c8da2cd0f3c7af0113ac11",
+      "sizeBytes": 105802564
     },
     {
-      "name": "EhViewer.Desktop-0.2.7-x64-setup.exe",
+      "name": "EhViewer.Desktop-0.2.8-x64-setup.exe",
       "platform": "win32",
       "arch": "x64",
-      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.7/EhViewer.Desktop-0.2.7-x64-setup.exe",
-      "sha256": "0095a1307d7eb8f3a291f9255feec4384031d27c0abcb6867ef38d65b0643e93",
-      "sizeBytes": 106011055
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.8/EhViewer.Desktop-0.2.8-x64-setup.exe",
+      "sha256": "674a1a2acb4f2aa18c3afa954f3f02ea75094220bde42bee996ff1b4f5f777c9",
+      "sizeBytes": 106018810
     }
   ],
-  "changelog": "Improve desktop shutdown so window and tab state are saved before the sidecar stops.\nGuard late settings IPC during quit with cached settings instead of surfacing shutdown errors.\nHarden gallery request error handling and release publishing so signed website artifacts are verified before upgrade metadata goes live.",
-  "publish_time": "2026-04-25T19:11:03.283Z",
+  "changelog": "Fix the gallery library so local catalog mode no longer shows the torrent source or a false zero-result state.\nImprove gallery loading with deferred local catalog sync, route-level workspace loading, and cached thumbnail URL normalization.\nReduce initial renderer work with split vendor chunks, progressive list rendering, lazy thumbnails, and batched reader scroll updates.",
+  "publish_time": "2026-04-26T13:35:53.433Z",
   "_signature": {
     "schema": "ehviewer-control-plane-signature/v1",
     "type": "desktop-update",
-    "sequence": 2026042525,
-    "issuedAt": "2026-04-25T19:11:03.325Z",
-    "expiresAt": "2027-04-25T19:11:03.325Z",
-    "payloadSha256": "769beb3bfef831d01b3648989fe01b4800db307061523b8aa62eddfa0f83876d",
+    "sequence": 2026042627,
+    "issuedAt": "2026-04-26T13:35:53.473Z",
+    "expiresAt": "2027-04-26T13:35:53.473Z",
+    "payloadSha256": "c698394ddb3ddc20260ad274c1c24ce78add7a38f98721c2ccf11af3eccf0f8f",
     "minSignatures": 1,
     "signatures": [
       {
         "keyId": "desktop-root-2026-04-b",
         "algorithm": "ed25519",
-        "signature": "p/KzaVdwPbnScnkfcI1q8mzXz1Mk7PBZ5ihyC3YgrvVBvVYLeN3Y34huJDXwKMm+oUOD6f3s56QWQ6ni16Q0Dg=="
+        "signature": "IMZxmBFlfy8eV0XobpqrFGWfqcxnqhhwmM9sySutkqvZb8eDzK7MFjByQHd9mEzD7Ooovo57fpELTlwCSkv6Cw=="
       }
     ]
   }
