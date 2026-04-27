@@ -1,0 +1,104 @@
+{
+  "version": "0.2.9",
+  "versionCode": 20900,
+  "version_name": "0.2.9",
+  "version_code": 20900,
+  "mustUpdate": false,
+  "mandatory": false,
+  "severity": "info",
+  "channels": [
+    "desktop"
+  ],
+  "min_supported": 20500,
+  "minimum_supported_version": "0.2.5",
+  "minimum_supported_version_code": 20500,
+  "manual_upgrade_before_version": "0.2.5",
+  "manual_upgrade_before_version_code": 20500,
+  "force_upgrade_versions": [],
+  "force_upgrade_version_codes": [],
+  "updateContent": {
+    "title": "EhViewer Desktop 0.2.9",
+    "content": [
+      "Restore gallery navigation continuity so returning to the library keeps the user's previous page, search context, and feed state instead of resetting unexpectedly.",
+      "Improve loading feedback across home, gallery feeds, detail pages, and reader warmup so slow network work always shows clear progress instead of appearing frozen.",
+      "Make reading smoother with better page sizing presets, click-to-turn behavior, bounded image preloading, tighter vertical scroll spacing, and stale warmup cleanup.",
+      "Default the desktop UI to Traditional Chinese and restore language switching for Simplified Chinese, English, and Japanese.",
+      "Compact gallery detail and reader tools so important images, tags, and actions stay visible while secondary information remains collapsible."
+    ],
+    "fileDownloadUrl": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.9/EhViewer.Desktop-0.2.9-universal.dmg"
+  },
+  "notice": {
+    "title": "EhViewer Desktop 0.2.9",
+    "body": "Desktop 0.2.9 improves gallery navigation continuity, reader smoothness, loading feedback, language switching, and compact detail layouts.",
+    "deeplink": "ehviewer-desktop://update/0.2.9",
+    "download_url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.9/EhViewer.Desktop-0.2.9-universal.dmg"
+  },
+  "artifacts": [
+    {
+      "name": "EhViewer.Desktop-0.2.9-ia32-portable.exe",
+      "platform": "win32",
+      "arch": "ia32",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.9/EhViewer.Desktop-0.2.9-ia32-portable.exe",
+      "sha256": "c71c010b2331e4418eb98bb6a1f596a3452748326b3eeac14a3b8912a29e595c",
+      "sizeBytes": 93161339
+    },
+    {
+      "name": "EhViewer.Desktop-0.2.9-ia32-setup.exe",
+      "platform": "win32",
+      "arch": "ia32",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.9/EhViewer.Desktop-0.2.9-ia32-setup.exe",
+      "sha256": "74e2daf3203aaba3edf199f173dcb6ed1f45501958b5564fe9356e9e9b7ec56a",
+      "sizeBytes": 93377190
+    },
+    {
+      "name": "EhViewer.Desktop-0.2.9-universal-mac.zip",
+      "platform": "darwin",
+      "arch": "universal",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.9/EhViewer.Desktop-0.2.9-universal-mac.zip",
+      "sha256": "f93ab7d034b3cc782ca42219285e8edd427e671520c61e4273a439633504d45f",
+      "sizeBytes": 211214941
+    },
+    {
+      "name": "EhViewer.Desktop-0.2.9-universal.dmg",
+      "platform": "darwin",
+      "arch": "universal",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.9/EhViewer.Desktop-0.2.9-universal.dmg",
+      "sha256": "ef6761de9188cbfb86aa7a2a0a83f2e72a8f531e6f4a7485734d3e3b26eda702",
+      "sizeBytes": 218264561
+    },
+    {
+      "name": "EhViewer.Desktop-0.2.9-x64-portable.exe",
+      "platform": "win32",
+      "arch": "x64",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.9/EhViewer.Desktop-0.2.9-x64-portable.exe",
+      "sha256": "abe52f294f28f6ed31ec09a31398371968585b03ad5010559cd952ee878f40ce",
+      "sizeBytes": 105809364
+    },
+    {
+      "name": "EhViewer.Desktop-0.2.9-x64-setup.exe",
+      "platform": "win32",
+      "arch": "x64",
+      "url": "https://github.com/loututu114-pixel/eh-tw/releases/download/desktop-v0.2.9/EhViewer.Desktop-0.2.9-x64-setup.exe",
+      "sha256": "0f41c48ffaeab23ca30b63c6e141f61987119eae1d21cec98b44145907591a02",
+      "sizeBytes": 106025609
+    }
+  ],
+  "changelog": "Restore gallery navigation continuity so returning to the library keeps the user's previous page, search context, and feed state instead of resetting unexpectedly.\nImprove loading feedback across home, gallery feeds, detail pages, and reader warmup so slow network work always shows clear progress instead of appearing frozen.\nMake reading smoother with better page sizing presets, click-to-turn behavior, bounded image preloading, tighter vertical scroll spacing, and stale warmup cleanup.\nDefault the desktop UI to Traditional Chinese and restore language switching for Simplified Chinese, English, and Japanese.\nCompact gallery detail and reader tools so important images, tags, and actions stay visible while secondary information remains collapsible.",
+  "publish_time": "2026-04-27T00:43:03.430Z",
+  "_signature": {
+    "schema": "ehviewer-control-plane-signature/v1",
+    "type": "desktop-update",
+    "sequence": 2026042728,
+    "issuedAt": "2026-04-27T00:43:03.585Z",
+    "expiresAt": "2027-04-27T00:43:03.585Z",
+    "payloadSha256": "9f3d847fb9fdc3afa6339230070cbb2d8b180b91040c51edd069760c43f88b5b",
+    "minSignatures": 1,
+    "signatures": [
+      {
+        "keyId": "desktop-root-2026-04-b",
+        "algorithm": "ed25519",
+        "signature": "wB7GXVo5IUu/VajwRH4PFIV9RAkTaz9AC8Dn9ZjZfG4UGRNlI0ogV+tMJrEuC7FXw4Or4EiUlfjBxPWL/MtrCw=="
+      }
+    ]
+  }
+}

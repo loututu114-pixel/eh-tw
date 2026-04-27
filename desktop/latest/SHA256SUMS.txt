@@ -1,6 +1,6 @@
-4fe2313fa018e9db442128a482c22cc3c66ac8a4bbb91ad039437ccd04e47cbb  EhViewer.Desktop-0.2.8-ia32-portable.exe
-c0ad883ae4fd919645f8e76512493bcd022159e32438af01739ec450468e3763  EhViewer.Desktop-0.2.8-ia32-setup.exe
-d406a69e34056952eac34b5ce183bf060601fe89ec4e1115cd0e66c6c6821e9c  EhViewer.Desktop-0.2.8-universal-mac.zip
-2391ace29c8ee9563b5ab9675b35139f24ad75f3dcc72e5243e8b8ed2af0f90e  EhViewer.Desktop-0.2.8-universal.dmg
-486c45fb762013dd229df88ebd394216ab9d328738c8da2cd0f3c7af0113ac11  EhViewer.Desktop-0.2.8-x64-portable.exe
-674a1a2acb4f2aa18c3afa954f3f02ea75094220bde42bee996ff1b4f5f777c9  EhViewer.Desktop-0.2.8-x64-setup.exe
+c71c010b2331e4418eb98bb6a1f596a3452748326b3eeac14a3b8912a29e595c  EhViewer.Desktop-0.2.9-ia32-portable.exe
+74e2daf3203aaba3edf199f173dcb6ed1f45501958b5564fe9356e9e9b7ec56a  EhViewer.Desktop-0.2.9-ia32-setup.exe
+f93ab7d034b3cc782ca42219285e8edd427e671520c61e4273a439633504d45f  EhViewer.Desktop-0.2.9-universal-mac.zip
+ef6761de9188cbfb86aa7a2a0a83f2e72a8f531e6f4a7485734d3e3b26eda702  EhViewer.Desktop-0.2.9-universal.dmg
+abe52f294f28f6ed31ec09a31398371968585b03ad5010559cd952ee878f40ce  EhViewer.Desktop-0.2.9-x64-portable.exe
+0f41c48ffaeab23ca30b63c6e141f61987119eae1d21cec98b44145907591a02  EhViewer.Desktop-0.2.9-x64-setup.exe
