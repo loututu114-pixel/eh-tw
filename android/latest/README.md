@@ -13,6 +13,7 @@ Current public Android version: `3.0.2.5`
 
 ## Official APK
 
-- `EhViewer-v3.0.2.5-channel-0000-release.apk`
+- `EhViewer-v3.0.2.5-channel-0000-r2611-release.apk` — 主推版 / Primary
+- `EhViewer-v3.0.2.5-channel-0000-legacy-release.apk` — 兼容旧版 / Legacy (com.hippo.ehviewer)
 
 This page lists the public Android package only.
